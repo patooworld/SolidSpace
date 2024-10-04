@@ -3,6 +3,8 @@
         "ms-vscode.remote-server",
         "ms-vscode-remote.remote-wsl",
         "ms-vscode.remote-explorer",
-        "ms-vscode-remote.vscode-remote-extensionpack"
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "golang.go",
+        "amazonwebservices.aws-toolkit-vscode"
     ]
 }
