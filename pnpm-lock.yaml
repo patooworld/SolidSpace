@@ -126,8 +126,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
       use-debounce:
-        specifier: ^10.0.0
-        version: 10.0.1(react@18.3.1)
+        specifier: ^10.0.3
+        version: 10.0.3(react@18.3.1)
     devDependencies:
       '@tailwindcss/forms':
         specifier: ^0.5.7
@@ -154,13 +154,13 @@ importers:
         specifier: 8.57.1
         version: 8.57.1
       eslint-config-next:
-        specifier: ^14.2.14
+        specifier: ^14.0.2
         version: 14.2.14(eslint@8.57.1)(typescript@5.5.3)
       postcss:
         specifier: ^8.4.33
         version: 8.4.39
       prettier:
-        specifier: ^3.3.3
+        specifier: ^3.1.0
         version: 3.3.3
       prettier-plugin-tailwindcss:
         specifier: ^0.6.0
@@ -4668,11 +4668,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  use-debounce@10.0.1:
-    resolution: {integrity: sha512-0uUXjOfm44e6z4LZ/woZvkM8FwV1wiuoB6xnrrOmeAEjRDDzTLQNRFtYHvqUsJdrz1X37j0rVGIVp144GLHGKg==}
+  use-debounce@10.0.3:
+    resolution: {integrity: sha512-DxQSI9ZKso689WM1mjgGU3ozcxU1TJElBJ3X6S4SMzMNcm2lVH0AHmyXB+K7ewjz2BSUKJTDqTcwtSMRfB89dg==}
     engines: {node: '>= 16.0.0'}
     peerDependencies:
-      react: '>=16.8.0'
+      react: '*'
 
   use-isomorphic-layout-effect@1.1.2:
     resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
@@ -10580,7 +10580,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  use-debounce@10.0.1(react@18.3.1):
+  use-debounce@10.0.3(react@18.3.1):
     dependencies:
       react: 18.3.1
 
