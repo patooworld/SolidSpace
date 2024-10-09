@@ -139,8 +139,8 @@ importers:
         specifier: ^3.0.6
         version: 3.0.6
       '@types/node':
-        specifier: ^20.9.0
-        version: 20.14.11
+        specifier: ^20.16.11
+        version: 20.16.11
       '@types/react':
         specifier: ^18.2.37
         version: 18.3.11
@@ -154,13 +154,13 @@ importers:
         specifier: 8.57.1
         version: 8.57.1
       eslint-config-next:
-        specifier: ^14.2.14
+        specifier: ^14.0.2
         version: 14.2.14(eslint@8.57.1)(typescript@5.5.3)
       postcss:
         specifier: ^8.4.33
         version: 8.4.39
       prettier:
-        specifier: ^3.3.3
+        specifier: ^3.1.0
         version: 3.3.3
       prettier-plugin-tailwindcss:
         specifier: ^0.6.0
@@ -1085,8 +1085,8 @@ packages:
   '@types/node@18.15.3':
     resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
 
-  '@types/node@20.14.11':
-    resolution: {integrity: sha512-kprQpL8MMeszbz6ojB5/tU8PLN4kesnN8Gjzw349rDlNgsSzg90lAVj3llK99Dh7JON+t9AuscPPFW6mPbTnSA==}
+  '@types/node@20.16.11':
+    resolution: {integrity: sha512-y+cTCACu92FyA5fgQSAI8A1H429g7aSK2HsO7K4XYUWc4dY5IUz55JSDIYT6/VsOLfGy8vmvQYC2hfb0iF16Uw==}
 
   '@types/pg@8.11.6':
     resolution: {integrity: sha512-/2WmmBXHLsfRqzfHW7BNZ8SbYzE8OSk7i3WjFYvfgRHj7S1xj+16Je5fUKv3lVdVzk/zn9TXOqf+avFCFIE0yQ==}
@@ -4585,8 +4585,8 @@ packages:
   underscore@1.8.3:
     resolution: {integrity: sha512-5WsVTFcH1ut/kkhAaHf4PVgI8c7++GiVcpCGxPouI6ZVjsqPnSDf8h/8HtVqc0t4fzRXwnMK70EcZeAs3PIddg==}
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.19.8:
+    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
   undici@5.28.4:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
@@ -5821,13 +5821,13 @@ snapshots:
 
   '@types/node@18.15.3': {}
 
-  '@types/node@20.14.11':
+  '@types/node@20.16.11':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.19.8
 
   '@types/pg@8.11.6':
     dependencies:
-      '@types/node': 20.14.11
+      '@types/node': 20.16.11
       pg-protocol: 1.6.1
       pg-types: 4.0.2
 
@@ -10468,7 +10468,7 @@ snapshots:
 
   underscore@1.8.3: {}
 
-  undici-types@5.26.5: {}
+  undici-types@6.19.8: {}
 
   undici@5.28.4:
     dependencies:
