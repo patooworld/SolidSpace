@@ -22,9 +22,9 @@
 
 The [Platforms Starter Kit](https://app.vercel.pub/) is a full-stack Next.js app with multi-tenancy and custom domain support. Built with [Next.js App Router](https://nextjs.org/docs/app), [Vercel Postgres](https://vercel.com/storage/postgres) and the [Vercel Domains API](https://vercel.com/docs/rest-api/endpoints#domains).
 
-Here's a quick 30-second demo:
+Here's a quick 30-second demo
 
-![image](https://github.com/user-attachments/assets/8e9b12ec-3f37-4c41-9d75-953c48699409)
+https://youtube.com/shorts/hIzFmHznPCI?si=EIIrYpKMcNqUdlXa
 
 
 ## Features
