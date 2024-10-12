@@ -24,7 +24,8 @@ The [Platforms Starter Kit](https://app.vercel.pub/) is a full-stack Next.js app
 
 Here's a quick 30-second demo:
 
-https://github.com/vercel/platforms/assets/28986134/bd370257-0c27-4cf5-8a56-28589f36f0ef
+![image](https://github.com/user-attachments/assets/8e9b12ec-3f37-4c41-9d75-953c48699409)
+
 
 ## Features
 
@@ -42,12 +43,6 @@ https://github.com/vercel/platforms/assets/28986134/bd370257-0c27-4cf5-8a56-2858
     <source media="(prefers-color-scheme: light)" srcset="https://images.ctfassets.net/e5382hct74si/7tiAitb8kdgUGktycr540c/d33f2834f9356bce25e0721c4ebe4f9a/CleanShot_2023-07-05_at_08.39.10.png">
     <img alt="Demo" src="https://images.ctfassets.net/e5382hct74si/7tiAitb8kdgUGktycr540c/d33f2834f9356bce25e0721c4ebe4f9a/CleanShot_2023-07-05_at_08.39.10.png">
 </picture>
-
-## Deploy Your Own
-
-Deploy your own version of this starter kit with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-title=Platforms+Starter+Kit&demo-description=A+template+for+site+builders+and+low-code+tools.&demo-url=https%3A%2F%2Fdemo.vercel.pub%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F40JwjdHlPr0Z575MPYbxUA%2Fd5903afc68cb34569a3886293414c37c%2FOG_Image.png&project-name=Platforms+Starter+Kit&repository-name=platforms-starter-kit&repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fplatforms&from=templates&env=NEXT_PUBLIC_ROOT_DOMAIN%2CNEXTAUTH_SECRET%2CAUTH_GITHUB_ID%2CAUTH_GITHUB_SECRET%2CAUTH_BEARER_TOKEN%2CPROJECT_ID_VERCEL%2CTEAM_ID_VERCEL%2COPENAI_API_KEY&envDescription=These+environment+variables+are+required+to+run+this+application.&envLink=https%3A%2F%2Fgithub.com%2Fvercel%2Fplatforms%2Fblob%2Fmain%2F.env.example&stores=%5B%7B%22type%22%3A%22postgres%22%7D%5D)
 
 You can also [read the guide](https://vercel.com/guides/nextjs-multi-tenant-application) to learn how to develop your own version of this template.
 
@@ -123,19 +118,32 @@ This working demo site was built using the Platforms Starter Kit and:
 
 ## Contributing
 
-- [Start a discussion](https://github.com/vercel/platforms/discussions) with a question, piece of feedback, or idea you want to share with the team.
-- [Open an issue](https://github.com/vercel/platforms/issues) if you believe you've encountered a bug with the starter kit.
+- [Start a discussion](https://99paceteam.slack.com#general) with a question, piece of feedback, or idea you want to share with the team.
+- [Open an issue](https://patooworld.slack.com) if you believe you've encountered a bug with the starter kit.
 
 ## Author
 
-- Steven Tey ([@steventey](https://twitter.com/steventey))
+- PATOOWORLD ([@patooworld](https://x.com/patooworld))
 
-## License
+# Security Policy
 
-The MIT License.
+## Supported Versions
 
----
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
 
-<a aria-label="Vercel logo" href="https://vercel.com">
-  <img src="https://badgen.net/badge/icon/Made%20by%20Vercel?icon=zeit&label&color=black&labelColor=black">
-</a>
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+
