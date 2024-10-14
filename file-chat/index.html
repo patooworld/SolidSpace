@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Upload and Chat</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+      }
+      .file-upload {
+        margin-bottom: 20px;
+      }
+      .chat-section {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        height: 300px;
+        overflow-y: auto;
+      }
+      .chat-input {
+        margin-top: 10px;
+      }
+      .message {
+        margin: 10px 0;
+      }
+      .message.user {
+        text-align: right;
+        color: blue;
+      }
+      .message.bot {
+        text-align: left;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+	    <div id="existing-file"></div>
+      <!-- File Upload Section -->
+      <div class="file-upload">
+        <label for="file-input">Upload CSV:</label>
+        <input
+          type="file"
+          id="file-input"
+          accept=".csv"
+          onchange="handleFileSelection()"
+        />
+        <button id="upload-button" onclick="uploadFile()" style="display: none">
+          Upload
+        </button>
+      </div>
+
+      <!-- Chat Section -->
+      <div class="chat-section" id="chat-section">
+        <!-- Chat messages will appear here -->
+      </div>
+
+      <!-- Chat Input -->
+      <div class="chat-input">
+        <input
+          type="text"
+          id="chat-input"
+          placeholder="Type your message..."
+          disabled
+        />
+        <button id="send-button" onclick="sendMessage()" disabled>Send</button>
+      </div>
+    </div>
+
+    <script>
+      const chatSection = document.getElementById("chat-section");
+      const uploadButton = document.getElementById("upload-button");
+      const chatInput = document.getElementById("chat-input");
+      const sendButton = document.getElementById("send-button");
+
+      function handleFileSelection() {
+        const fileInput = document.getElementById("file-input");
+        if (fileInput.files.length > 0) {
+          uploadButton.style.display = "inline-block";
+        } else {
+          uploadButton.style.display = "none";
+        }
+      }
+
+      async function uploadFile() {
+        const fileInput = document.getElementById("file-input");
+        const file = fileInput.files[0];
+
+        if (!file) {
+          alert("No file selected!");
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append("file", file);
+
+        try {
+          const response = await fetch("/upload", {
+            method: "POST",
+            body: formData,
+          });
+
+          if (!response.ok) {
+            throw new Error("File upload failed!");
+          }
+
+          const result = await response.json();
+          console.log("File uploaded successfully: " + result.filename);
+
+          // Enable chat input and send button after upload completes
+          chatInput.disabled = false;
+          sendButton.disabled = false;
+
+          // Reset file input and upload button
+          fileInput.value = "";
+          uploadButton.style.display = "none";
+        } catch (error) {
+          alert("Error uploading file: " + error.message);
+        }
+      }
+
+      function sendMessage() {
+        const message = chatInput.value.trim();
+
+        if (message) {
+          displayMessage(message, "user");
+          chatInput.value = "";
+        }
+      }
+
+      function displayMessage(message, sender) {
+        const messageDiv = document.createElement("div");
+        messageDiv.classList.add("message", sender);
+        messageDiv.textContent = message;
+        chatSection.appendChild(messageDiv);
+        chatSection.scrollTop = chatSection.scrollHeight; // Scroll to the bottom
+      }
+    </script>
+  </body>
+</html>
