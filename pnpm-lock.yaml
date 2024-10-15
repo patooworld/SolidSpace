@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@next-auth/prisma-adapter':
         specifier: ^1.0.7
-        version: 1.0.7(@prisma/client@5.17.0(prisma@5.17.0))(next-auth@4.24.8(next@14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 1.0.7(@prisma/client@5.17.0(prisma@5.17.0))(next-auth@4.24.8(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nodemailer@6.9.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@prisma/client':
         specifier: ^5.5.2
         version: 5.17.0(prisma@5.17.0)
@@ -22,7 +22,7 @@ importers:
         version: 1.2.1
       '@vercel/analytics':
         specifier: ^1.1.1
-        version: 1.3.1(next@14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        version: 1.3.1(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@vercel/blob':
         specifier: ^0.23.0
         version: 0.23.4
@@ -39,8 +39,8 @@ importers:
         specifier: ^3.2.27
         version: 3.2.27(react@18.3.1)(solid-js@1.8.18)(svelte@4.2.18)(vue@3.4.31(typescript@5.5.3))(zod@3.21.4)
       azure:
-        specifier: 2.3.1-preview
-        version: 2.3.1-preview
+        specifier: ^0.7.18
+        version: 0.7.19
       clsx:
         specifier: ^2.0.0
         version: 2.1.1
@@ -78,11 +78,11 @@ importers:
         specifier: ^5.0.0
         version: 5.0.7
       next:
-        specifier: 14.2.4
-        version: 14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^14.2.15
+        version: 14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-auth:
-        specifier: 4.24.8
-        version: 4.24.8(next@14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^4.0.0
+        version: 4.24.8(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nodemailer@6.9.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-mdx-remote:
         specifier: ^5.0.0
         version: 5.0.0(@types/react@18.3.11)(react@18.3.1)
@@ -117,7 +117,7 @@ importers:
         specifier: ^1.2.0
         version: 1.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       swr:
-        specifier: ^2.2.4
+        specifier: ^2.2.5
         version: 2.2.5(react@18.3.1)
       tailwind-merge:
         specifier: ^2.0.0
@@ -537,62 +537,62 @@ packages:
       '@prisma/client': '>=2.26.0 || >=3'
       next-auth: ^4
 
-  '@next/env@14.2.4':
-    resolution: {integrity: sha512-3EtkY5VDkuV2+lNmKlbkibIJxcO4oIHEhBWne6PaAp+76J9KoSsGvNikp6ivzAT8dhhBMYrm6op2pS1ApG0Hzg==}
+  '@next/env@14.2.15':
+    resolution: {integrity: sha512-S1qaj25Wru2dUpcIZMjxeMVSwkt8BK4dmWHHiBuRstcIyOsMapqT4A4jSB6onvqeygkSSmOkyny9VVx8JIGamQ==}
 
   '@next/eslint-plugin-next@14.2.14':
     resolution: {integrity: sha512-kV+OsZ56xhj0rnTn6HegyTGkoa16Mxjrpk7pjWumyB2P8JVQb8S9qtkjy/ye0GnTr4JWtWG4x/2qN40lKZ3iVQ==}
 
-  '@next/swc-darwin-arm64@14.2.4':
-    resolution: {integrity: sha512-AH3mO4JlFUqsYcwFUHb1wAKlebHU/Hv2u2kb1pAuRanDZ7pD/A/KPD98RHZmwsJpdHQwfEc/06mgpSzwrJYnNg==}
+  '@next/swc-darwin-arm64@14.2.15':
+    resolution: {integrity: sha512-Rvh7KU9hOUBnZ9TJ28n2Oa7dD9cvDBKua9IKx7cfQQ0GoYUwg9ig31O2oMwH3wm+pE3IkAQ67ZobPfEgurPZIA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@14.2.4':
-    resolution: {integrity: sha512-QVadW73sWIO6E2VroyUjuAxhWLZWEpiFqHdZdoQ/AMpN9YWGuHV8t2rChr0ahy+irKX5mlDU7OY68k3n4tAZTg==}
+  '@next/swc-darwin-x64@14.2.15':
+    resolution: {integrity: sha512-5TGyjFcf8ampZP3e+FyCax5zFVHi+Oe7sZyaKOngsqyaNEpOgkKB3sqmymkZfowy3ufGA/tUgDPPxpQx931lHg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@14.2.4':
-    resolution: {integrity: sha512-KT6GUrb3oyCfcfJ+WliXuJnD6pCpZiosx2X3k66HLR+DMoilRb76LpWPGb4tZprawTtcnyrv75ElD6VncVamUQ==}
+  '@next/swc-linux-arm64-gnu@14.2.15':
+    resolution: {integrity: sha512-3Bwv4oc08ONiQ3FiOLKT72Q+ndEMyLNsc/D3qnLMbtUYTQAmkx9E/JRu0DBpHxNddBmNT5hxz1mYBphJ3mfrrw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-arm64-musl@14.2.4':
-    resolution: {integrity: sha512-Alv8/XGSs/ytwQcbCHwze1HmiIkIVhDHYLjczSVrf0Wi2MvKn/blt7+S6FJitj3yTlMwMxII1gIJ9WepI4aZ/A==}
+  '@next/swc-linux-arm64-musl@14.2.15':
+    resolution: {integrity: sha512-k5xf/tg1FBv/M4CMd8S+JL3uV9BnnRmoe7F+GWC3DxkTCD9aewFRH1s5rJ1zkzDa+Do4zyN8qD0N8c84Hu96FQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-x64-gnu@14.2.4':
-    resolution: {integrity: sha512-ze0ShQDBPCqxLImzw4sCdfnB3lRmN3qGMB2GWDRlq5Wqy4G36pxtNOo2usu/Nm9+V2Rh/QQnrRc2l94kYFXO6Q==}
+  '@next/swc-linux-x64-gnu@14.2.15':
+    resolution: {integrity: sha512-kE6q38hbrRbKEkkVn62reLXhThLRh6/TvgSP56GkFNhU22TbIrQDEMrO7j0IcQHcew2wfykq8lZyHFabz0oBrA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-linux-x64-musl@14.2.4':
-    resolution: {integrity: sha512-8dwC0UJoc6fC7PX70csdaznVMNr16hQrTDAMPvLPloazlcaWfdPogq+UpZX6Drqb1OBlwowz8iG7WR0Tzk/diQ==}
+  '@next/swc-linux-x64-musl@14.2.15':
+    resolution: {integrity: sha512-PZ5YE9ouy/IdO7QVJeIcyLn/Rc4ml9M2G4y3kCM9MNf1YKvFY4heg3pVa/jQbMro+tP6yc4G2o9LjAz1zxD7tQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-win32-arm64-msvc@14.2.4':
-    resolution: {integrity: sha512-jxyg67NbEWkDyvM+O8UDbPAyYRZqGLQDTPwvrBBeOSyVWW/jFQkQKQ70JDqDSYg1ZDdl+E3nkbFbq8xM8E9x8A==}
+  '@next/swc-win32-arm64-msvc@14.2.15':
+    resolution: {integrity: sha512-2raR16703kBvYEQD9HNLyb0/394yfqzmIeyp2nDzcPV4yPjqNUG3ohX6jX00WryXz6s1FXpVhsCo3i+g4RUX+g==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@next/swc-win32-ia32-msvc@14.2.4':
-    resolution: {integrity: sha512-twrmN753hjXRdcrZmZttb/m5xaCBFa48Dt3FbeEItpJArxriYDunWxJn+QFXdJ3hPkm4u7CKxncVvnmgQMY1ag==}
+  '@next/swc-win32-ia32-msvc@14.2.15':
+    resolution: {integrity: sha512-fyTE8cklgkyR1p03kJa5zXEaZ9El+kDNM5A+66+8evQS5e/6v0Gk28LqA0Jet8gKSOyP+OTm/tJHzMlGdQerdQ==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@14.2.4':
-    resolution: {integrity: sha512-tkLrjBzqFTP8DVrAAQmZelEahfR9OxWpFR++vAI9FBhCiIxtwHwBHC23SBHCTURBtwB4kc/x44imVOnkKGNVGg==}
+  '@next/swc-win32-x64-msvc@14.2.15':
+    resolution: {integrity: sha512-SzqGbsLsP9OwKNUG9nekShTwhj6JSB9ZLMWQ8g1gG6hdE5gQLncbnbymrwy2yVmH9nikSLYRYxYMFu78Ggp7/g==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -1249,10 +1249,6 @@ packages:
   '@vue/shared@3.4.31':
     resolution: {integrity: sha512-Yp3wtJk//8cO4NItOPpi3QkLExAr/aLBGZMmTtW9WpdwBCJpRM6zj9WgWktXAl8IDIozwNMByT45JP3tO3ACWA==}
 
-  '@xmldom/xmldom@0.8.10':
-    resolution: {integrity: sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==}
-    engines: {node: '>=10.0.0'}
-
   accepts@1.3.8:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
     engines: {node: '>= 0.6'}
@@ -1266,11 +1262,6 @@ packages:
     resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
-
-  adal-node@0.2.4:
-    resolution: {integrity: sha512-zIcvbwQFKMUtKxxj8YMHeTT1o/TPXfVNsTXVgXD8sxwV6h4AFQgK77dRciGhuEF9/Sdm3UQPJVPc/6XxrccSeA==}
-    engines: {node: '>= 0.6.15'}
-    deprecated: This package is no longer supported. Please migrate to @azure/msal-node.
 
   ai@3.2.27:
     resolution: {integrity: sha512-J0SCozj1c8ZTprYVAH3LL1XYR5TRT6oGsXZ5leSqXeEo1SWBx6rFEqDKZLFskLvOf3Ta/AG6EDDrP1EErwapMQ==}
@@ -1289,9 +1280,6 @@ packages:
         optional: true
       zod:
         optional: true
-
-  ajv@6.12.3:
-    resolution: {integrity: sha512-4K0cK3L1hsqk9xIb2z9vs/XU+PGJZ9PNpJRDS9YLzmNdX6jmVPfamLvTJr0aDAusnHyCHO6MjzlkAsgtqp9teA==}
 
   ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
@@ -1378,8 +1366,16 @@ packages:
     resolution: {integrity: sha512-bMxMKAjg13EBSVscxTaYA4mRc5t1UAXa2kXiGTNfZ079HIWXEkKmkgFrh/nJqamaLSrXO5H4WFFkPEaLJWbs3A==}
     engines: {node: '>= 0.4'}
 
+  asn1@0.1.11:
+    resolution: {integrity: sha512-Fh9zh3G2mZ8qM/kwsiKwL2U2FmXxVsboP4x1mXjnhKHv3SmzaBZoYvxEQJz/YS2gnCgd8xlAVWcZnQyC9qZBsA==}
+    engines: {node: '>=0.4.9'}
+
   asn1@0.2.6:
     resolution: {integrity: sha512-ix/FxPn0MDjeyJ7i/yoHGFt/EX6LyNbxSEhPPXODPL+KB0VPk86UYfL0lMdy+KCnv+fmvIzySwaK5COwqVbWTQ==}
+
+  assert-plus@0.1.5:
+    resolution: {integrity: sha512-brU24g7ryhRwGCI2y+1dGQmQXiZF7TtIj583S96y0jjdajIe6wn8BuXyELYhvD22dtIxDQVFk04YTJwwdwOYJw==}
+    engines: {node: '>=0.8'}
 
   assert-plus@1.0.0:
     resolution: {integrity: sha512-NfJ4UzBCcQGLDlQq7nHxH+tv3kyZ0hHQqF5BO6J7tNJeP5do1llPr8dZ8zHonfhAu0PHAdMkSo+8o0wxg9lZWw==}
@@ -1395,8 +1391,8 @@ packages:
   async-retry@1.3.3:
     resolution: {integrity: sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==}
 
-  async@2.6.4:
-    resolution: {integrity: sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==}
+  async@0.9.2:
+    resolution: {integrity: sha512-l6ToIJIotphWahxxHyzK9bnLR6kM4jJIIgLShZeqLY7iboHoGkdgFl7W2/Ivi4SkMJYGKqW8vSuk0uKUj6qsSw==}
 
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
@@ -1415,6 +1411,9 @@ packages:
   aws-sign2@0.7.0:
     resolution: {integrity: sha512-08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==}
 
+  aws-sign@0.3.0:
+    resolution: {integrity: sha512-pEMJAknifcXqXqYVXzGPIu8mJvxtJxIdpVpAs8HNS+paT+9srRUDMQn+3hULS7WbLmttcmvgMvnDcFujqXJyPw==}
+
   aws4@1.13.0:
     resolution: {integrity: sha512-3AungXC4I8kKsS9PuS4JH2nc+0bVY/mjgrephHTIi8fpEeGsTHBUJeosp0Wc1myYMElmD0B3Oc4XL/HVJ4PV2g==}
 
@@ -1422,350 +1421,13 @@ packages:
     resolution: {integrity: sha512-Mr2ZakwQ7XUAjp7pAwQWRhhK8mQQ6JAaNWSjmjxil0R8BPioMtQsTLOolGYkji1rcL++3dCqZA3zWqpT+9Ew6g==}
     engines: {node: '>=4'}
 
-  axios@0.21.4:
-    resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
-
   axobject-query@4.1.0:
     resolution: {integrity: sha512-qIj0G9wZbMGNLjLmg1PT6v2mE9AH2zlnADJD/2tC6E00hgmhUOfEB6greHPAfLRSufHqROIUTkw6E+M3lH0PTQ==}
     engines: {node: '>= 0.4'}
 
-  azure-arm-advisor@1.2.0:
-    resolution: {integrity: sha512-zmdXFoKXd9t1mnOGo6KwTvb7ZQIJ+HuRGPVGck84CdZAVtpOrWR2Gh2ZwJ9l9cYl+4JkueFaV336coYsPiIVGw==}
-    deprecated: This package is deprecated in favor of @azure/arm-advisor which works both on node.js and browsers
-
-  azure-arm-analysisservices@2.3.0:
-    resolution: {integrity: sha512-hPi56JmxwsYrj6r+h1ZQely4wu/J43KdxI5hTPGV/HKtSh0/0zyZn5bUk9ON2nEvexdpsAiiAuoPTxoQk219nw==}
-    deprecated: This package is deprecated in favor of  @azure/arm-analysisservices which works both on node.js and browsers
-
-  azure-arm-apimanagement@2.1.1-preview:
-    resolution: {integrity: sha512-Q5Q+yaTiHshyJXnfy/PxCFHLiEKXlZozR+QM/OrVhp7PT4NOTAFhsDnHFxEIMLOC6uHbiWb1aQ7nOnVD6rcdwQ==}
-
-  azure-arm-appinsights@1.2.1-preview:
-    resolution: {integrity: sha512-3SQ4UDo1TStfM0Guu/oC3nYEihNH+qIB5sTP1e3OdVeSp4GRsRBRdQXTsPrDzaJGHcjo3M96chWhBpbuDIMGQQ==}
-
-  azure-arm-authorization@5.0.0:
-    resolution: {integrity: sha512-DD+AS3Zg0TxyHbxo3Aa5/VAauoxYLUWvdCE57VCCzaUCPlxcCf4XxKN34YNayMO+4cuNk3WOOGATQdwbhvdoEA==}
-    deprecated: This package is deprecated in favor of @azure/arm-authorization which works both on node.js and browsers
-
-  azure-arm-automation@4.0.0-preview:
-    resolution: {integrity: sha512-hnmIxxMcvJ2VSFTlQ8OEq51/hhOXjM/c5V9qbtPMjuzG3E4er5qNE777wjpPrfhW8ZQ7U0Tvu6EMpRS1gs/Mhg==}
-
-  azure-arm-batch@3.2.0:
-    resolution: {integrity: sha512-DDfgAiRruGAiL8Yot5nufG3O8GLA0r5lf1CGYhuF8pEzQ+vYfhLpgJzme7LPh3ASPb8UBSVYHm1IK4W4StvVnw==}
-    deprecated: This package is deprecated in favor of @azure/arm-batch which works both on node.js and browsers
-
-  azure-arm-billing@2.2.0:
-    resolution: {integrity: sha512-TPxEquzJ1c2E34m4SLL8i8M2Yn/cQF5Q2D7JF6cZNOEAYQsdCN0K+Yaw9js21GV5M1mA55JNHkSdLWb/EME4jQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-billing which works both on node.js and browsers
-
-  azure-arm-cdn@4.2.0:
-    resolution: {integrity: sha512-DkpLntvqHtCLbf7p/qqLS0eJluZtsb8gU65deJYiMz4OFQco+InP9giCVnY8gElW3QbMaqKyHOJCDK7NllKMoA==}
-    deprecated: This package is deprecated in favor of @azure/arm-cdn which works both on node.js and browsers
-
-  azure-arm-cognitiveservices@2.4.1:
-    resolution: {integrity: sha512-fwxii7QjYbeHhB7hwhGQ7mxpqqZNOtyp4lTr0cM+COqNCuXCpt13fbwp16NoH5yTixh8HSh91qo31dfe4Rx4oQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-cognitiveservices which works both on node.js and browsers
-
-  azure-arm-commerce@2.1.0:
-    resolution: {integrity: sha512-zhZ9b1Comp1Owa8/Pn7ORTL0l+uX9elz5A5yOoL/XdYXC8S6bN2QaiRLPmue9ZB55qGE1Tn7Cf+KRlpskL17hQ==}
-    deprecated: This package is deprecated in favor of  @azure/arm-commerce which works both on node.js and browsers
-
-  azure-arm-compute@5.1.1:
-    resolution: {integrity: sha512-aO9/4xD84q5AqfPWPtIrZE+R3O2bZBZ54APKJsQk/WrFawJwXvROhYzaK/k4nm8girNejErFnTjUTOnw62RiXg==}
-    deprecated: This package is deprecated in favor of @azure/arm-compute whick works both on node.js and browsers
-
-  azure-arm-consumption@4.0.0:
-    resolution: {integrity: sha512-SEktTAcv5JAuHoiadY8bbvw4Gnqcc2JUQ1Mr14yvTkxxv6cm2tDaQd22yymuOvzBH4Pym4TliNPcWy94TE7uNw==}
-    deprecated: This package is deprecated in favor of @azure/arm-consumption which works both on node.js and browsers
-
-  azure-arm-containerinstance@2.0.0:
-    resolution: {integrity: sha512-g12u5jbIoOM4wiNdC979jWeNDQxYRmHEzLD23ouIIWSp0mJ+xuWftrUa8qWVj6akZ97CNYpExZ4RBLZZmmEQvQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-containerinstance which works both on node.js and browsers
-
-  azure-arm-containerregistry@2.4.1:
-    resolution: {integrity: sha512-Qu4mEG0nVTmGY4081dERyrwxrc8SyNW7HxkWyuaklwnZKabRFv9vLe+Wg2tiwThx0T9b/t4WvWm6XNQaL2olMw==}
-    deprecated: This package is deprecated in favor of @azure/arm-containerregistry which works both on node.js and browsers
-
-  azure-arm-containerservice@2.0.0:
-    resolution: {integrity: sha512-MvbmSM5LpXOfkHvp+1NOCyiz0n2eyj4v3MmA7vagEf6pAaChbkfShxwO2ShS7gaw69wZHoNa0eWH4x/fUWJiew==}
-    deprecated: This package is deprecated in favor of @azure/arm-containerservice which works both on node.js and browsers
-
-  azure-arm-cosmosdb@1.1.2:
-    resolution: {integrity: sha512-NdjUeSoNzV2Ljajomy7mQW8WrbysGg6jPpTGztlpyLgGCBFMO9llvzKCoRTNMs9Van50lrJrmcbhbJNFn3PPjw==}
-    deprecated: This package is deprecated in favor of @azure/arm-cosmosdb which works both on node.js and browsers
-
-  azure-arm-customerinsights@3.1.0:
-    resolution: {integrity: sha512-iiBC6eRhv7mUw674wct+af5BIhOOcqb4e6E7hxwBv/ko5AwAi9yrOYQfRII0QunkwlCGFORcfnazh1Uk+19bQA==}
-    deprecated: This package is deprecated in favor of @azure/arm-customerinsights which works both on node.js and browsers
-
-  azure-arm-datafactory@2.1.0:
-    resolution: {integrity: sha512-w/MtwhMBSu1EhhdTwwX3QnFQbE1c8ZUrofDq4jhOuL83belqxr89wzxRfz24Gbmi+Sn0K5RsqmM41y74y7pm9g==}
-    deprecated: This package is deprecated in favor of @azure/arm-datafactory which works both on node.js and browsers
-
-  azure-arm-datalake-analytics@3.0.0-preview:
-    resolution: {integrity: sha512-P5zt3SFGlsfIJqDkUDfZ4a/bntZczIw2k4PfP6ONLxWEUGMpN1axc/UMCllrT7sFMDYaD0fCa80LDwD7SsGzXg==}
-
-  azure-arm-datalake-store@3.0.0-preview:
-    resolution: {integrity: sha512-wP23AuH6+fWD6l6OCbc+wwkNXQgzxC41qY8AKhbrl0x9bd1UU4GmCGxdUb8rES8dgjdoAee0g+FbWzXuzyK47w==}
-
-  azure-arm-devtestlabs@2.1.1:
-    resolution: {integrity: sha512-S5dCYTMrqL+BJc699fIQtXwLFuv5m8jTDqPdXTFpn/CSkyBcOyJwuZH2zPExQjGNZTyjIR6GWi8oeg/IpYLBWw==}
-    deprecated: This package is deprecated in favor of  @azure/arm-devtestlabs which works both on node.js and browsers
-
-  azure-arm-dns@2.1.0:
-    resolution: {integrity: sha512-/y0tOM9qNijPYqB381JFYiEyfF+L5B8z+F8JS1OMV1JXIb45vZKXeoe82ZNMZ5g38Vme3uAblxpvp5OtIcvW6Q==}
-    deprecated: This package is deprecated in favor of @azure/arm-dns which works both on node.js and browsers
-
-  azure-arm-domainservices@1.1.0:
-    resolution: {integrity: sha512-aaCLwjWljcEJzgMfwmwHask7g1F+6T2FfB5oGYCvLI4r97+XnaXYsS1NZDzJupBkBA0HUdH+el30gyrdyP25NA==}
-    deprecated: This package is deprecated in favor of @azure/arm-domainservices which works both on node.js and browsers
-
-  azure-arm-eventgrid@1.5.0:
-    resolution: {integrity: sha512-5gxyByhoE54dkAWgjy9k3mG4HmiHXkbUExEIU9CvkHa5iMkQUZFYvDOMA3B9TjYkmDPH8omv5n9ac/KMZ5V4ZQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-eventgrid which works both on node.js and browsers
-
-  azure-arm-eventhub@1.3.0:
-    resolution: {integrity: sha512-FyOXlXm6MuaIsJLCAHmyDUQwHU9Y2ztJTUnAHaXXZWAwy3YlvxNo6tbLXbrFvCjiGmyunW0kK+uNFtmQcFbX7Q==}
-    deprecated: This package is deprecated in favor of @azure/arm-eventhub which works both on node.js and browsers
-
-  azure-arm-hdinsight-jobs@0.1.1:
-    resolution: {integrity: sha512-T0DZdhu+64aHDEX7MMXAzDa59nY5dZHDAeRp6xzSioAtPoQINppaO9cSpD8hSuHhHzec+pnxf/bB/Ik53uQQBg==}
-
-  azure-arm-hdinsight@0.3.0:
-    resolution: {integrity: sha512-1lJaqHN9kGW/BO/WfE+OTrlr5FJ8tsa+TdT160Y2OfntHTZxIDLkMHK2JdHMMIlEAf73v4Q3zM9AIFjq94hA1A==}
-    deprecated: This package is deprecated in favor of @azure/arm-hdinsight which works both on node.js and browsers
-
-  azure-arm-iothub@1.1.0-preview:
-    resolution: {integrity: sha512-8Iq7zmRkncZ2Xmg7bI2cMWtEbOJI2qyrohai+0FGQK5bkzJowse5+HqNulTodpM9SMPnnZGWvHS5KzAQ0uyu1A==}
-
-  azure-arm-keyvault@1.2.0:
-    resolution: {integrity: sha512-P1QgUHTSpKvko/mX2u7LDPf5yYinTOtIvMHJeZluQGTSRToMF9mBKqt1TKEzaHyS0eQDErDoLHyBSs7D9E1Qaw==}
-    deprecated: This package is deprecated in favor of @azure/arm-keyvault which works both on node.js and browsers
-
-  azure-arm-logic@1.1.0-preview:
-    resolution: {integrity: sha512-m2s0HnVka+8GgBx+x6Zk2C7KkDa65/lM54HzQi4OArOXWm9kPdlxmu81uWi7A759YER3/9pkTGu+p/AiP3MQbQ==}
-
-  azure-arm-machinelearning@1.1.0-preview:
-    resolution: {integrity: sha512-4aWVrzh6BL9IQlu5FeuZE2oVAht6mHL2DBRfsgGqgP1pePhtHvBZpJ6IHHzyHI16sEh+/V0DExJaIria9+ASbQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-commitmentplans, @azure/arm-webservices, @azure/arm-workspaces which work both on node.js and browsers
-
-  azure-arm-machinelearningcompute@1.0.0-preview:
-    resolution: {integrity: sha512-WtomhMTd+relHxAQ0UtSqDPE4EUSEEbSpSuoPHcI7XikPnoyUAviAELwllNh3PAyk7+pAsLcUP6yr0PNInh68w==}
-
-  azure-arm-marketplaceordering@1.3.1:
-    resolution: {integrity: sha512-+Q++u/LtJasTR64bf6M2iwa4lswHg2vPPW2H6oQ3/tjpZTNpo52PmkOzNsMWWK0m4BBZqbRfFl3dLdco+f5QSA==}
-    deprecated: This package is deprecated in favor of @azure/arm-marketplaceordering which works both on node.js and browsers
-
-  azure-arm-mediaservices@2.0.0:
-    resolution: {integrity: sha512-YO2TJyuK9LdJLLO5aMmQEDPEKgjDpOiVjWZOKKPP9FJkA+bKsCP4A30kAgMtTqg+Ckzp/xTuRIkhkR0E7zoymQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-mediaservices which works both on node.js and browsers
-
-  azure-arm-mobileengagement@1.0.0-preview:
-    resolution: {integrity: sha512-7OSnyT6CMd9RLeo3khdy/7VFrkadig73Z6lgri3w0V7ljtFc7RE0pUBfiMiZCPDmZMUz7NdE2ZtOrfDpOwOG9A==}
-    deprecated: Azure Mobile Engagement has been retired
-
-  azure-arm-monitor@2.0.0-preview:
-    resolution: {integrity: sha512-V516OQOm2lvt9UsD4wdbI1PMWM0dhV5grt9Al5LAje6h2qyTG9UJyGszx9MnaY1hqXI9lR8wPg6Gy7YXcM+lag==}
-
-  azure-arm-mysql@3.2.0:
-    resolution: {integrity: sha512-L/KbAggszefQGNvmPm3f98lRm9ZVAqbqTZNSYb59Bxr3xiZsdkOwPbl7rK9/cD4mxhc9czS1kbZ8HbvbupMd/A==}
-    deprecated: This package is deprecated in favor of @azure/arm-mysql which works both on node.js and browsers
-
-  azure-arm-network@5.3.0:
-    resolution: {integrity: sha512-juitxBWofPBZ+kcmLB8OjW5qPD6+/Ncdq86WjDTIUcH+cyb/GWktdDymv6adbOyz4xZ9/wbThFL7AHgq8cHBig==}
-    deprecated: This package is deprecated in favor of @azure/arm-network whick works both on node.js and browsers
-
-  azure-arm-notificationhubs@1.2.0:
-    resolution: {integrity: sha512-E+Q87JfzYxMJhuqbdlt3Gzuwfc0/55gXyI+BYAVTtiIsZeGRUigVF1dpP09ye6uV2FcoF+OZXJ3pXj6jyOrxCQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-notificationhubs which works both on node.js and browsers
-
-  azure-arm-operationalinsights@1.2.0:
-    resolution: {integrity: sha512-aG3ksWfqMWjCQu1GNboni7mTdPjXKUdvrI1WQ5IOiah0ZO2S6J14iOwipLZnyvHcRyyJmIHqm0VR7CMvo2kOxQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-operationalinsights which works both on node.js and browsers
-
-  azure-arm-operations@1.0.0-preview:
-    resolution: {integrity: sha512-FD3Ernrr4btqqdsamt2jFarqadeDyYsnnltyCLEHdfAz4v5eQR6R7trdPV19DEFaYo+RFSnKTIIY8hBLlrarRg==}
-
-  azure-arm-postgresql@4.3.0:
-    resolution: {integrity: sha512-x4S5GaSJ2MRUntpnDipIPJxA2XuAQ5qUTbgGRVt05shyOg29k3s8gleyveqd3oWKPWaGoW3Nf/kBj6RE2B3v/Q==}
-    deprecated: This package is deprecated in favor of @azure/arm-postgresql which works both on node.js and browsers
-
-  azure-arm-powerbiembedded@1.1.0-preview:
-    resolution: {integrity: sha512-xW3pk1BP4D1/sCrArtGVQXlMHmW7OOY53fQF9v74miiYo9ydGqpzt2F+8xvtp/5Jxo7+qCB0rrUyoMvO9/EQjA==}
-
-  azure-arm-recoveryservices-siterecovery@2.0.0-preview:
-    resolution: {integrity: sha512-k9YUIXMGMhevqwgGgVoPexZwlCUZfjh1BpLJ4vkY/wOExkEVU3ErId6gCjh7iaidMO/3x45gxftfKUgERoRx1w==}
-
-  azure-arm-recoveryservices@2.0.1-preview:
-    resolution: {integrity: sha512-No1uY9BgohXvOPnnFSqaRkXTpeU+F2xYrxltfHLCPw942VZz6L9xGg87hR6YO0NgyDDK/+hodUa+uGmtezptyw==}
-
-  azure-arm-recoveryservicesbackup@2.0.1-preview:
-    resolution: {integrity: sha512-9mvuFavP8h9U7JJ0jgJHlRtxMUlGWiqYMkqD+9QTpxnn/kjSZAulma32fcGq0Ej721LGSOVRnCRiimji8Y/DBg==}
-
-  azure-arm-rediscache@2.0.0-preview:
-    resolution: {integrity: sha512-KiHEO52uKwwVmVMZwOhjRVj67GHzLMCq0Bt2VIadX2+natHge/OR+sh6Axb9DwJUOkvNstPWvFDzuLQDYDGWNg==}
-
-  azure-arm-relay@2.0.0-preview:
-    resolution: {integrity: sha512-fK3NAkw0anv6VrAIt1+xtcE0le4n1t+acNMAPTD7cSL3hpLzRrb9H0PNTNa2rxKjqr8f5lp3P5XC93dTniJkmw==}
-
-  azure-arm-resource@3.1.1-preview:
-    resolution: {integrity: sha512-01/t+0aDxcvEoAk+EOgMdZwi6DdCFN+iQM5CBaMhNg9DBoztrfRIpOz0OR4QUCynmcyCpl52CZN0Pho36mQiHA==}
-
-  azure-arm-resourcehealth@1.1.0:
-    resolution: {integrity: sha512-MuiNs49eo2X5ouV/ymAmf1eZ9xfKFfrMGR4gsvT95F4Hl746We5ULZIZYa9StFssY9pH6vX1zr/djqRXODbIZA==}
-    deprecated: This package is deprecated in favor of @azure/arm-resourcehealth which works both on node.js and browsers
-
-  azure-arm-sb@2.2.0-preview:
-    resolution: {integrity: sha512-wqfc+aKPf/29dHpTy9L4eDykppZnwqxUq4KQW/glX2nvsuyggs7Cmcmmw5E6yt4Ecd4cRDXG4kVNToeEBrV5rQ==}
-
-  azure-arm-scheduler@1.2.0-preview:
-    resolution: {integrity: sha512-1dhz9VpKwuopVGbiom4sk/wo0S/undlcWnFwIrnoHkOXtz317TQ3EXnXUsfTFizTyRcMwKLW5Qb9hZ8PNphUCg==}
-
-  azure-arm-search@1.1.0-preview:
-    resolution: {integrity: sha512-iV+HbLXwBRPWg7/zIrMjc/MBTgKHLqixYl+9WS2FLI3tY6HBZtuu+ERvBVgJw9SIAymzl+IL4PB/LEut6He35g==}
-
-  azure-arm-servermanagement@1.1.0:
-    resolution: {integrity: sha512-GlPXPD5Up2U6Qxv40ScC/+7WRcVVYQf7EHUSomD385o/MuyJAjM6CxBS8fPKwkZR5MRSd60p6kBo5AQ+bwfpeA==}
-
-  azure-arm-servicefabric@2.0.0-preview:
-    resolution: {integrity: sha512-5q9J4rAkXY8ZNStY9SN5uF2paMkdl3SOWDM6fgWASPthM9p6G5lMsDRI/o8ZwUc60u2omeHMJrI6aKAanQ98RQ==}
-
-  azure-arm-servicemap@2.1.0:
-    resolution: {integrity: sha512-O3IJsm9tRfv4x5fUofxz46gBQ5MUzN40OB7oS82Sbnq/o/ZroxdJROwel47uGgpAgftqh7c15i8tL6sUFnV2Lg==}
-    deprecated: This package is deprecated in favor of @azure/arm-servicemap which works both on node.js and browsers
-
-  azure-arm-sql@3.0.0:
-    resolution: {integrity: sha512-Fs9BUA3sGIfWJtulZNaiFHAbG7ipYliUz3xBN6K5RH2OGltYMNVE4Dofzdq726cY0nXMnjfzMhipdXqmJKdAjQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-sql whick works both on node.js and browsers
-
-  azure-arm-storage@5.2.0:
-    resolution: {integrity: sha512-BVFUPi48eJNJFP4ryQ3BwNRlKRNuAA7cZeSxCvr6dGEP+wrd1Ixmb2MlvoMRjgjcEOVnhP4t2YQyHcHNqQsH9A==}
-    deprecated: This package is deprecated in favor of @azure/arm-storage whick works both on node.js and browsers
-
-  azure-arm-storageimportexport@1.2.0:
-    resolution: {integrity: sha512-azr97LXRY1zkyYx7OX54fjLOYCXvHX3moVk5Cvy/InxYL1DTruOy2069gYQz+CRbxCi/DbvL5UiLjcH72hmFsw==}
-    deprecated: This package is deprecated in favor of @azure/arm-storageimportexport which works both on node.js and browsers
-
-  azure-arm-storsimple8000series@1.0.0-preview:
-    resolution: {integrity: sha512-NdlGEhXFGCBxOxEe4LULKgPPdh91gE7YtiZ+uswkqfE82DknvBqebfZ7yzST1h0ub9PCvj/E9rV1zRub6aR7xw==}
-
-  azure-arm-streamanalytics@1.0.0-preview:
-    resolution: {integrity: sha512-IsBynbHmPzfz2F4k3ohTw9QRsWlUvt7juxHVxsVe8nr3klkq980/vhLEkytpglsBy5n5pp2nE6P7kYyxQwnWeA==}
-
-  azure-arm-trafficmanager@3.0.0:
-    resolution: {integrity: sha512-1p8jEfFwQ3v1/CVga5tOsaYGGd/YwOq6xUBrvv6khUqMOd5JaszTOaKCQE5IMqK2agXj6TjQ0NHS7Fph6cyaiw==}
-    deprecated: This package is deprecated in favor of @azure/arm-trafficmanager whick works both on node.js and browsers
-
-  azure-arm-visualstudio@1.0.0-preview:
-    resolution: {integrity: sha512-7hXExG3dC/nlEWoWhJOb/ust5YlbX4prztKrOyiNQ5E5CYX3x9vmnp01wHRv9i3H/tAIARfoFmpT+Fk48CkRGA==}
-
-  azure-arm-website@3.0.0-preview:
-    resolution: {integrity: sha512-IhCdjiL0Y+QMlwdrw9tEoYM8mKCtBYHdK5G8RVthF58lHUAPMaQMbvSuumZ/kbVxNdvORkXGXJ5tOng6v75AZQ==}
-
-  azure-asm-compute@0.18.0:
-    resolution: {integrity: sha512-lCuymrpTrzP4/1vT7v/3SEPl0R2a0TcVFulSnEoniMbMKuFfDwSfXOWUogZ+FwczAU8BxEbkZ1agTqH+20wVXQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-compute which works both on node.js and browsers
-
-  azure-asm-hdinsight@0.10.3:
-    resolution: {integrity: sha512-Dok4r4bGOcTiWGcHrJ6BNqgrhVQv9l5IJPNHBtEXH0C5MG8yuZ3yFXQFKS6zXC4FQrSVDKq56UN/EfmQ1Rmskg==}
-    deprecated: This package is deprecated in favor of  @azure/arm-hdinsight which works both on node.js and browsers
-
-  azure-asm-mgmt@0.10.2:
-    resolution: {integrity: sha512-TjD903nfAqPYCp48Sb4U+64qgIaaPootTeCXrFF0Gnolcnjt4T13CevBnrNcc8RuFsOIgPvlJAVUE+oGpcRM/Q==}
-
-  azure-asm-network@0.13.1:
-    resolution: {integrity: sha512-NwWLJ49PION4n5sdPFmkUDZXdkGgbLY0thiyr9HnrDP8O6Dp9VdhPRu3abX0UUsNZUWcxGDcQwHH8uH4DhAZ7g==}
-    deprecated: This package is deprecated in favor of @azure/arm-network which works both on node.js and browsers
-
-  azure-asm-sb@0.10.2:
-    resolution: {integrity: sha512-DY7FqTu4ThNHt/CjcKKsE32rXtKggHCmIc2yhmEsFBi46dm2EJg38R30aaKBVnbzEf+pZE9KIfyTDN1GXlg6ug==}
-    deprecated: This package is deprecated in favor of  @azure/arm-servicebus which works both on node.js and browsers
-
-  azure-asm-scheduler@0.10.2:
-    resolution: {integrity: sha512-E6idUebtAIQh6VXY9+MZSEbgIF+Zxok521TM8XpFItpo5fWnE7BZLOhVWNch2ncZ/YUxQdMzKnmw5bKODxPCZg==}
-    deprecated: This package is deprecated in favor of  azure-arm-scheduler which works both on node.js and browsers
-
-  azure-asm-sql@0.10.3:
-    resolution: {integrity: sha512-G5OmmIX+ifQrNNaqJ2Me+fEewzQaxwVWDQ4YNxOWLkxktYmRq3W0fzFieeswCVOKXi46Xd1EePpQiJeNOFHyZg==}
-    deprecated: This package is deprecated in favor of @azure/arm-sql which works both on node.js and browsers
-
-  azure-asm-storage@0.12.1:
-    resolution: {integrity: sha512-W2ZOGhqSz4sB9gd5vis04Hod0xQJNBtAYbE9lHxa5JAi7VxAZw/2Ctoh6oqnyXhSaEUwRb+o22Z921COZmo/NQ==}
-    deprecated: This package is deprecated in favor of @azure/arm-storage which works both on node.js and browsers
-
-  azure-asm-store@0.10.2:
-    resolution: {integrity: sha512-SkVL7zKFlnL4FlnUOHxzI/yGHH4H9e7X9zK+ZTaOv/C6y35qqCKyI5idinOJcCSeK+wlqE/wPmFGaJihJ967Pg==}
-    deprecated: This package is deprecated. Please see https://github.com/Azure/azure-sdk-for-js/ for latest JavaScript SDKs which work both on node.js and browsers
-
-  azure-asm-subscription@0.10.2:
-    resolution: {integrity: sha512-FWGV06+yqJSHh7M9PS2B8dpGZFfGh7Kdwx3vdJby1ziy49izHHjUvr8qj4vAEphWKflUCvq+NNk/qlKQatSgDw==}
-    deprecated: This package is deprecated in favor of  @azure/arm-subscriptions which works both on node.js and browsers
-
-  azure-asm-trafficmanager@0.10.4:
-    resolution: {integrity: sha512-xCZTU2dJWPQfGxHeAqEulbE2KJFDKahIJNOdUJhsuTgDrgB0CimWpd63cBP6MR6WzoXCYsEG+Q8Jr06mtqpQ0A==}
-    deprecated: This package is deprecated in favor of @azure/arm-trafficmanager which works both on node.js and browsers
-
-  azure-asm-website@0.10.7:
-    resolution: {integrity: sha512-h3OmXKKOLd4sbf4khrxqGTjspjqpKduKN9EWgEoIeNhMY+PVKrVEIMr3ZyKzmmy/8123MD+ip67wMqUKSTLtUA==}
-    deprecated: This package is deprecated in favor of  @azure/arm-appservice which works both on node.js and browsers
-
-  azure-batch@3.2.2:
-    resolution: {integrity: sha512-IM5nUITXMgTFTF4avRxsz/oLcMXLSZEzpukulRRpO1emXBI4EgSIr0++hUo+AZ94MINE2C4DXgCDiQ9P0suYXw==}
-    deprecated: This package is deprecated in favor of @azure/batch whick works both on node.js and browsers
-
-  azure-common@0.9.27:
-    resolution: {integrity: sha512-5rPZth1SFvhcNeTYd//0A78Dl+OFqlL2QWyI1Jzw3mPMEoxdBRyc1wUr9PSzsWB3f9pzjSbmlBJC+dcFBshh+A==}
-
-  azure-extra@0.2.14:
-    resolution: {integrity: sha512-IOW8+betIT1Ng3Pk0S9VXf2uqEIiTnlJRuA70j5MwjLCliy/iC9Ts3ghJyOdUIrnYfYaL3u7UbVC1OkfTU2waA==}
-
-  azure-gallery@2.0.0-pre.20:
-    resolution: {integrity: sha512-KDv7iNsbU/ObxBOXgUobpkj0nB3cVVnNxaQgeNEoWRiiiZ8IxHGplJbepHBkEyL7ob8uoUJwYzgqauQMDVSaQA==}
-
-  azure-graph@2.2.0:
-    resolution: {integrity: sha512-ab0LlM5Q3pcKm+V6F6yx2ShzGOTYMcmJvLdL3PQsC9hF+hrYsBdkTCdNZdlPBgrSB8jp5vzhmK83qHGRs14hHw==}
-    deprecated: This package is deprecated in favor of @azure/graph which works both on node.js and browsers.
-
-  azure-keyvault@3.0.5:
-    resolution: {integrity: sha512-59fzKRq9dnzv03lEuImvgXc3QjRJoSJtK0gv1WXoqCivBuPdFNK+x6hAjoEDS2WEOXG+7m3uiJWqpMh/8NW3ow==}
-    deprecated: This package has been deprecated. Please use @azure/keyvault-keys, @azure/keyvault-secrets or @azure/keyvault-certificates instead
-
-  azure-loganalytics@0.1.1:
-    resolution: {integrity: sha512-nt3DhaywATobRrFPJzS/W9ynFAnCKO+i+A3Lzjz/ZGzUmuUxAQkX4ALkk8BJvsPK6ONoC297u+RQuDSigDsz7A==}
-    deprecated: This package is deprecated in favor of @azure/monitor-query which works both on node.js and browsers
-
-  azure-monitoring@0.10.6:
-    resolution: {integrity: sha512-6HNA8VuC5qYvQMjcQt2/zlB7oyAJ7n6KGIYGstS6KS9Orux0peqxlrGPDeQRa4jDNq6ili83KiGc7RhWcgsE4Q==}
-    deprecated: This package is deprecated in favor of @azure/arm-monitor.
-
-  azure-sb@0.10.6:
-    resolution: {integrity: sha512-bgupZJZ5DcZEh/fRRcDiverWteq32AhBrm34qK2/Rn6LIgurGzk70FpiBV5KxVPAaVmX08kdMwuGMkUMxinv8g==}
-    deprecated: |
-      Please note, a newer package @azure/service-bus for Azure Service Bus is available as of May 2019 and [@azure/notification-hubs] for Azure Notification Hubs as of March 2023. We strongly encourage you to upgrade to the new package for your Service Bus and Notification Hubs needs. Migration guide can be found at:
-       
-      https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/servicebus/service-bus/migrationguide.md
-       
-      and
-       
-      https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/notificationhubs/notification-hubs/migrationguide.md
-
-  azure-scheduler@0.10.4:
-    resolution: {integrity: sha512-1X68H1jP0m59rojy+Jil2vEevsiM3M/bJvfztOFRDwWi9s9IxU/yxBPUMdL9vPVWZpbLF7m7VapYzSfDwsiCxA==}
-    deprecated: This package is deprecated in favor of  azure-arm-scheduler which works both on node.js and browsers
-
-  azure-servicefabric@2.0.0-preview:
-    resolution: {integrity: sha512-R4n2WvSq59MuQmykYV02fecRlw6F53fKRbsXoFDyzad5k5cyAcO3LGbfLK6FiNLEKuHWIxBSFk/NWXrxWFDocg==}
-
-  azure-storage-legacy@0.10.3:
-    resolution: {integrity: sha512-znZD9ixqwtQM4/mXGa/5RAj+GrxKbp7wYSWpMc7AlH6Laz5qSoMZLi+4PXqnYnbc9t3p2E3HoPKhtU62H4e4CA==}
-
-  azure-storage@2.10.7:
-    resolution: {integrity: sha512-4oeFGtn3Ziw/fGs/zkoIpKKtygnCVIcZwzJ7UQzKTxhkGQqVCByOFbYqMGYR3L+wOsunX9lNfD0jc51SQuKSSA==}
-    engines: {node: '>= 0.8.26'}
-    deprecated: 'Please note: newer packages @azure/storage-blob, @azure/storage-queue and @azure/storage-file are available as of November 2019 and @azure/data-tables is available as of June 2021. While the legacy azure-storage package will continue to receive critical bug fixes, we strongly encourage you to upgrade. Migration guide can be found: https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/storage/MigrationGuide.md'
-
-  azure@2.3.1-preview:
-    resolution: {integrity: sha512-4GmbdzqbocOLgASGbBZuNA5rwU3szCaoyTS95s2DcwkTnv28Ong4/HeKTv9GX9ib1ueNv26AbrK/EmyiGY65Zg==}
+  azure@0.7.19:
+    resolution: {integrity: sha512-nyt+MhZXleTbdOqTDse4vqWhKi2ABUVQoSoe2ukSCru4nAVAq3IQk52LYU7lqpPpXNaVBWoF4YuQ652sa5H7Zw==}
+    engines: {node: '>= 0.6.15'}
     deprecated: Superceded by the Azure SDK for JS; details https://github.com/azure/azure-sdk-for-node#announcing-the-new-azure-sdk-for-javascript
 
   bail@2.0.2:
@@ -1788,6 +1450,11 @@ packages:
   boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
 
+  boom@0.4.2:
+    resolution: {integrity: sha512-OvfN8y1oAxxphzkl2SnCS+ztV/uVKTATtgLjWYg/7KwcNyf3rzpHxNQJZCKtsZd4+MteKczhWbSjtEX4bGgU9g==}
+    engines: {node: '>=0.8.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+
   brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
 
@@ -1798,9 +1465,6 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  browserify-mime@1.2.9:
-    resolution: {integrity: sha512-uz+ItyJXBLb6wgon1ELEiVowJBEsy03PUWGRQU7cxxx9S+DW2hujPp+DaMYEOClRPzsn7NB99NtJ6pGnt8y+CQ==}
-
   browserslist@4.23.2:
     resolution: {integrity: sha512-qkqSyistMYdxAcw+CzbZwlBy8AGmS/eEWs+sEV5TnLRGDOL+C5M2EnH6tlZyg0YoAxGJAFKh61En9BR941GnHA==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
@@ -1809,9 +1473,6 @@ packages:
   bson@6.8.0:
     resolution: {integrity: sha512-iOJg8pr7wq2tg/zSlCCHMi3hMm5JTOxLTagf3zxhcenHsFp+c6uOs6K7W5UE7A4QIJGtqh/ZovFNMP4mOPJynQ==}
     engines: {node: '>=16.20.1'}
-
-  buffer-equal-constant-time@1.0.1:
-    resolution: {integrity: sha512-zRpUiDwd/xk6ADqPMATG8vc9VPrkck7T07OIx0gnjmJAnHnTVXNQG3vfvWNuiZIkwu9KrKdA1iJKfsfTVxE6NA==}
 
   bufferutil@4.0.8:
     resolution: {integrity: sha512-4T53u4PdgsXqKaIctwF8ifXlRTTmEPJ8iEPWFdGZvcf7sbwYo6FKFEX9eNNAnzFZ7EzJAQ3CJeOtCRA4rDp7Pw==}
@@ -1917,6 +1578,10 @@ packages:
     resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==}
     engines: {node: '>=12.5.0'}
 
+  combined-stream@0.0.7:
+    resolution: {integrity: sha512-qfexlmLp9MyrkajQVyjEDb0Vj+KhRgR/rxLiVhaihlT+ZkX0lReqtH6Ack40CvMDERR4b5eFp3CreskpBs1Pig==}
+    engines: {node: '>= 0.8'}
+
   combined-stream@1.0.8:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
@@ -1942,6 +1607,9 @@ packages:
   content-type@1.0.5:
     resolution: {integrity: sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==}
     engines: {node: '>= 0.6'}
+
+  cookie-jar@0.3.0:
+    resolution: {integrity: sha512-dX1400pzPULr+ZovkIsDEqe7XH8xCAYGT5Dege4Eot44Qs2mS2iJmnh45TxTO5MIsCfrV/JGZVloLhm46AHxNw==}
 
   cookie-signature@1.0.6:
     resolution: {integrity: sha512-QADzlaHc8icV8I7vbaJXJwod9HWYp8uCqf1xa4OfNu1T7JVxQIrUgOWtHdNDtPiywmFbiS12VjotIXLrKM3orQ==}
@@ -1971,6 +1639,11 @@ packages:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
 
+  cryptiles@0.2.2:
+    resolution: {integrity: sha512-gvWSbgqP+569DdslUiCelxIv3IYK5Lgmq1UrRnk+s1WxQOQ16j3GPDcjdtgL5Au65DU/xQi6q3xPtf5Kta+3IQ==}
+    engines: {node: '>=0.8.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+
   crypto-js@4.2.0:
     resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
 
@@ -1997,6 +1670,10 @@ packages:
 
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
+
+  ctype@0.5.3:
+    resolution: {integrity: sha512-T6CEkoSV4q50zW3TlTHMbzy1E5+zlnNcY+yb7tWVYlTwPhx9LpnfAkd4wecpWknDyptp4k97LUZeInlf6jdzBg==}
+    engines: {node: '>= 0.4'}
 
   d3-array@3.2.4:
     resolution: {integrity: sha512-tdQAmyA18i4J7wprpYq8ClcxZy3SC31QMeByyCFyRt7BVHdREQZ5lpzoe5mFEYZUWe+oq8HBvk9JjpibyEV4Jg==}
@@ -2064,10 +1741,6 @@ packages:
   date-fns@3.6.0:
     resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
 
-  date-utils@1.2.21:
-    resolution: {integrity: sha512-wJMBjqlwXR0Iv0wUo/lFbhSQ7MmG1hl36iuxuE91kW+5b5sWbase73manEqNH9sOLFAMG83B4ffNKq9/Iq0FVA==}
-    engines: {node: '>0.4.0'}
-
   dateformat@1.0.2-1.2.3:
     resolution: {integrity: sha512-AXvW8g7tO4ilk5HgOWeDmPi/ZPaCnMJ+9Cg1I3p19w6mcvAAXBuuGEXAxybC+Djj1PSZUiHUcyoYu7WneCX8gQ==}
 
@@ -2125,6 +1798,10 @@ packages:
   define-properties@1.2.1:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
     engines: {node: '>= 0.4'}
+
+  delayed-stream@0.0.5:
+    resolution: {integrity: sha512-v+7uBd1pqe5YtgPacIIbZ8HuHeLFVNe4mUEyFDXL6KiqzEykjbw+5mXZXpGFgNVasdL4jWKgaKIXrEHiynN1LA==}
+    engines: {node: '>=0.4.0'}
 
   delayed-stream@1.0.0:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
@@ -2199,9 +1876,6 @@ packages:
 
   ecc-jsbn@0.1.2:
     resolution: {integrity: sha512-eh9O+hwRHNbG4BLTjEl3nw044CkGm5X6LoaCf7LPp7UU8Qrt47JYNi6nPX8xjW97TKGKm1ouctg0QSpZe9qrnw==}
-
-  ecdsa-sig-formatter@1.0.11:
-    resolution: {integrity: sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==}
 
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
@@ -2498,28 +2172,22 @@ packages:
   focus-trap@7.5.4:
     resolution: {integrity: sha512-N7kHdlgsO/v+iD/dMoJKtsSqs5Dz/dXZVebRgJw23LDk+jMi/974zyiOYDziY2JPp8xivq9BmUGwIJMiuSBi7w==}
 
-  follow-redirects@1.15.6:
-    resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
-
   for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
-
-  foreground-child@3.2.1:
-    resolution: {integrity: sha512-PXUUyLqrR2XCWICfv6ukppP96sdFwWbNEnfEMt7jNsISjMsvaLNinAHNDYyvkyU+SZG2BTSbT5NjG+vZslfGTA==}
-    engines: {node: '>=14'}
 
   foreground-child@3.3.0:
     resolution: {integrity: sha512-Ld2g8rrAyMYFXBhEqMz8ZAHBi4J4uS1i/CxGMDnjyFWddMXLVcDp051DZfu+t7+ab7Wv6SMqpWmyFIj5UbfFvg==}
     engines: {node: '>=14'}
 
+  forever-agent@0.5.2:
+    resolution: {integrity: sha512-PDG5Ef0Dob/JsZUxUltJOhm/Y9mlteAE+46y3M9RBz/Rd3QVENJ75aGRhN56yekTUboaBIkd8KVWX2NjF6+91A==}
+
   forever-agent@0.6.1:
     resolution: {integrity: sha512-j0KLYPhm6zeac4lz3oJ3o65qvgQCcPubiyotZrXqEaG4hNagNYO8qdlUrX5vwqv9ohqeT/Z3j6+yW067yWWdUw==}
+
+  form-data@0.1.4:
+    resolution: {integrity: sha512-x8eE+nzFtAMA0YYlSxf/Qhq6vP1f8wSoZ7Aw1GuctBcmudCNuTUmmx45TfEplyb6cjsZO/jvh6+1VpZn24ez+w==}
+    engines: {node: '>= 0.8'}
 
   form-data@2.3.3:
     resolution: {integrity: sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==}
@@ -2672,10 +2340,6 @@ packages:
     resolution: {integrity: sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==}
     engines: {node: '>= 0.4'}
 
-  hash-base@3.1.0:
-    resolution: {integrity: sha512-1nmYp/rhMDiE7AYkDw+lLwlAzz0AntGIe51F3RfFfEqyQ3feY2eI/NcwC6umIQVOASPMsWJLJScWKSSvzL9IVA==}
-    engines: {node: '>=4'}
-
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
@@ -2692,6 +2356,16 @@ packages:
   hast-util-whitespace@3.0.0:
     resolution: {integrity: sha512-88JUN06ipLwsnv+dVn+OIYOvAuvBMy/Qoi6O7mQHxdPXpjy+Cd6xRkWwux7DKO+4sYILtLBRIKgsdpS2gQc7qw==}
 
+  hawk@1.0.0:
+    resolution: {integrity: sha512-Sg+VzrI7TjUomO0rjD6UXawsj50ykn5sB/xKNW/IenxzRVyw/wt9A2FLzYpGL/r0QG5hyXY8nLx/2m8UutoDcg==}
+    engines: {node: '>=0.8.0'}
+    deprecated: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+
+  hoek@0.9.1:
+    resolution: {integrity: sha512-ZZ6eGyzGjyMTmpSPYVECXy9uNfqBR7x5CavhUaLOeD6W0vWK1mp/b7O3f86XE0Mtfo9rZ6Bh3fnuw9Xr8MF9zA==}
+    engines: {node: '>=0.8.0'}
+    deprecated: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+
   htmlparser2@3.8.3:
     resolution: {integrity: sha512-hBxEg3CYXe+rPIua8ETe7tmG3XDn9B0edOE/e9wH2nLczxzgdu0m0aNHY+5wFZiviLWLdANPJTssa92dMcXQ5Q==}
 
@@ -2699,13 +2373,13 @@ packages:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
     engines: {node: '>= 0.8'}
 
+  http-signature@0.10.1:
+    resolution: {integrity: sha512-coK8uR5rq2IMj+Hen+sKPA5ldgbCc1/spPdKCL1Fw6h+D0s/2LzMcRK0Cqufs1h0ryx/niwBHGFu8HC3hwU+lA==}
+    engines: {node: '>=0.8'}
+
   http-signature@1.2.0:
     resolution: {integrity: sha512-CAbnr6Rz4CYQkLYUtSNXxQPUH2gK8f3iWexVlsnMeD+GjlsQ0Xsy1cOX+mN3dtxYomRy21CiOzU8Uhw6OwncEQ==}
     engines: {node: '>=0.8', npm: '>=1.3.7'}
-
-  http-signature@1.3.6:
-    resolution: {integrity: sha512-3adrsD6zqo4GsTqtO7FyrejHNv+NgiIfAfv68+jVlFmSr9OGy7zrxONceFRLKvnnZA5jbxQBX1u9PpB6Wi32Gw==}
-    engines: {node: '>=0.10'}
 
   iconv-lite@0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
@@ -2787,9 +2461,6 @@ packages:
     resolution: {integrity: sha512-gDYaKHJmnj4aWxyj6YHyXVpdQawtVLHU5cb+eztPGczf6cjuTdwve5ZIEfgXqH4e57An1D1AKf8CZ3kYrQRqYA==}
     engines: {node: '>= 0.4'}
 
-  is-buffer@1.1.6:
-    resolution: {integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==}
-
   is-buffer@2.0.5:
     resolution: {integrity: sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==}
     engines: {node: '>=4'}
@@ -2799,10 +2470,6 @@ packages:
 
   is-callable@1.2.7:
     resolution: {integrity: sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==}
-    engines: {node: '>= 0.4'}
-
-  is-core-module@2.14.0:
-    resolution: {integrity: sha512-a5dFJih5ZLYlRtDc0dZWP7RiKr6xIKzmn/oAYCDvdLThadVgyJwlaoQPmRtMSpz+rk0OGAgIu+TcM9HUF0fk1A==}
     engines: {node: '>= 0.4'}
 
   is-core-module@2.15.1:
@@ -2889,10 +2556,6 @@ packages:
     resolution: {integrity: sha512-nA2hv5XIhLR3uVzDDfCIknerhx8XUKnstuOERPNNIinXG7v9u+ohXF67vxm4TPTEPU6lm61ZkwP3c9PCB97rhg==}
     engines: {node: '>= 0.4'}
 
-  is-stream@1.1.0:
-    resolution: {integrity: sha512-uQPm8kcs47jx38atAcWTVxyltQYoPT68y9aWYdV6yWXSyW8mzSat0TL6CiWdZeCdF3KrAvpVtnHbTv4RN+rqdQ==}
-    engines: {node: '>=0.10.0'}
-
   is-string@1.0.7:
     resolution: {integrity: sha512-tE2UXzivje6ofPW7l23cjDOMa09gb7xlAqG6jG5ej6uPV32TlWP3NKPigtaGeHNu9fohccRYvIiZMfOOnOYUtg==}
     engines: {node: '>= 0.4'}
@@ -2921,9 +2584,6 @@ packages:
 
   isarray@0.0.1:
     resolution: {integrity: sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==}
-
-  isarray@1.0.0:
-    resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
 
   isarray@2.0.5:
     resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
@@ -2985,9 +2645,6 @@ packages:
   json-buffer@3.0.1:
     resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
 
-  json-edm-parser@0.1.2:
-    resolution: {integrity: sha512-J1U9mk6lf8dPULcaMwALXB6yel3cJyyhk9Z8FQ4sMwiazNwjaUhegIcpZyZFNMvLRtnXwh+TkCjX9uYUObBBYA==}
-
   json-schema-traverse@0.4.1:
     resolution: {integrity: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==}
 
@@ -3009,27 +2666,13 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  jsonparse@1.2.0:
-    resolution: {integrity: sha512-LkDEYtKnPFI9hQ/IURETe6F1dUH80cbRkaF6RaViSwoSNPwaxQpi6TgJGvJKyLQ2/9pQW+XCxK3hBoR44RAjkg==}
-    engines: {'0': node >= 0.2.0}
-
   jsprim@1.4.2:
     resolution: {integrity: sha512-P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw==}
     engines: {node: '>=0.6.0'}
 
-  jsprim@2.0.2:
-    resolution: {integrity: sha512-gqXddjPqQ6G40VdnI6T6yObEC+pDNvyP95wdQhkWkg7crHH3km5qP1FsOXEkzEQwnz6gz5qGTn1c2Y52wP3OyQ==}
-    engines: {'0': node >=0.6.0}
-
   jsx-ast-utils@3.3.5:
     resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
     engines: {node: '>=4.0'}
-
-  jwa@1.4.1:
-    resolution: {integrity: sha512-qiLX/xhEEFKUAJ6FiBMbes3w9ATzyk5W7Hvzpa/SLYdxNtng+gcurvrI7TbACjIXlsJyr05/S1oUhZrc63evQA==}
-
-  jws@3.2.2:
-    resolution: {integrity: sha512-YHlZCB6lMTllWDtSPHz/ZXTsi8S00usEV6v1tjq8tOUZzw7DpSDWVXjXDre6ed1w/pd495ODpHZYSdkRTsa0HA==}
 
   katex@0.16.11:
     resolution: {integrity: sha512-RQrI8rlHY92OLf3rho/Ts8i/XvjgguEjOkO1BEXcU3N8BqPpSzBNwV/G0Ukr+P/l3ivvJUE/Fa/CwbS6HesGNQ==}
@@ -3134,9 +2777,6 @@ packages:
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
     hasBin: true
-
-  md5.js@1.3.5:
-    resolution: {integrity: sha512-xitP+WxNPcTTOgnTJcrhM0xvdPepipPSf3I8EIpGKeFLjt3PlJLIDG3u8EX53ZIubkb+5U2+3rELYpEhHhzdkg==}
 
   mdast-util-definitions@5.1.2:
     resolution: {integrity: sha512-8SVPMuHqlPME/z3gqVwWY4zVXn8lqKv/pAhC57FuJ40ImXyBpmO5ukh98zB2v7Blql2FiHjHv9LVztSIqjY+MA==}
@@ -3360,6 +3000,9 @@ packages:
     resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
 
+  mime@1.2.11:
+    resolution: {integrity: sha512-Ysa2F/nqTNGHhhm9MV8ure4+Hc+Y8AWiqUdHxsO7xu8zc92ND9f3kpALHjaP026Ft17UfxrMt95c50PLUeynBw==}
+
   mime@1.6.0:
     resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==}
     engines: {node: '>=4'}
@@ -3382,9 +3025,6 @@ packages:
   minipass@7.1.2:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
-
-  moment@2.30.1:
-    resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
 
   mongodb-connection-string-url@3.0.1:
     resolution: {integrity: sha512-XqMGwRX0Lgn05TDB4PyG2h2kKO/FfWJyCzYQbIhXUxz7ETt0I/FqHjUeqj37irJ+Dl1ZtU82uYyj14u2XsZKfg==}
@@ -3416,19 +3056,13 @@ packages:
       socks:
         optional: true
 
-  mpns@2.1.3:
-    resolution: {integrity: sha512-gPLNoVqwYoKUmNYZ2shMSdaE2XvHSRxWNzyG4DUi6Av7MSujyeOw/nj61nnQeuV/vke5E0Dni468xn0qxTHIZQ==}
+  mpns@2.0.1:
+    resolution: {integrity: sha512-ATVfVWQZwzFd0CElwAvfxGXpQqTnzgODdk++rSXfUbFBNqmeBuCDKy/PMECa/Q5273dqLyZzNy1If1c7ck5WcA==}
     engines: {node: '>= 0.5.0'}
 
   mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
     engines: {node: '>=4'}
-
-  ms-rest-azure@2.6.2:
-    resolution: {integrity: sha512-h74ezkiMQ1y8tD0kf0MK2kdCONAP70i032Dt8kBrFsvj3ZqGRj+DHHNRCGLDfkBkSXhILGMeiF8Ji/iSCUJLJg==}
-
-  ms-rest@2.5.6:
-    resolution: {integrity: sha512-3Scy/pF43wqPEPeJxhOsLs16m6Rt+9zqf+jKdg+guuonytKmFSxerQM2exlQIDTqFVTsLXrPEGFWTGSwivRRkA==}
 
   ms@2.0.0:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
@@ -3484,8 +3118,8 @@ packages:
     peerDependencies:
       react: '>=16'
 
-  next@14.2.4:
-    resolution: {integrity: sha512-R8/V7vugY+822rsQGQCjoLhMuC9oFj9SOi4Cl4b2wjDrseD0LRZ10W7R6Czo4w9ZznVSshKjuIomsRjvm9EKJQ==}
+  next@14.2.15:
+    resolution: {integrity: sha512-h9ctmOokpoDphRvMGnwOJAedT6zKhwqyZML9mDtspgf4Rh3Pn7UTYKqePNoDvhsWBAO5GoPNYshnAUGIazVGmw==}
     engines: {node: '>=18.17.0'}
     hasBin: true
     peerDependencies:
@@ -3509,6 +3143,19 @@ packages:
   node-releases@2.0.14:
     resolution: {integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==}
 
+  node-uuid@1.2.0:
+    resolution: {integrity: sha512-Y3dv0c3v2sUBZp6/XofPiHu2pdiunlyJ5KpqJ2H9+zJh5nxWR6Kr/IxeY9IX1dfluEMhUzUeMpUDBD1EB2MzCQ==}
+    deprecated: Use uuid module instead
+
+  node-uuid@1.4.8:
+    resolution: {integrity: sha512-TkCET/3rr9mUuRp+CpO7qfgT++aAxfDRaalQhwPFzI9BY/2rCDn6OfpZOVggi1AXfTPpfkTrg5f5WQx5G1uLxA==}
+    deprecated: Use uuid module instead
+    hasBin: true
+
+  nodemailer@6.9.15:
+    resolution: {integrity: sha512-AHf04ySLC6CIfuRtRiEYtGEXgRfa6INgWGluDhnxTZhHSKvrBu7lc1VVchQ0d8nPc4cFaZoPq8vkyNoZr0TpGQ==}
+    engines: {node: '>=6.0.0'}
+
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
@@ -3525,6 +3172,9 @@ packages:
 
   nth-check@1.0.2:
     resolution: {integrity: sha512-WeBOdju8SnzPN5vTUJYxYUxLeXpCaVP5i5e0LF8fg7WORF2Wd7wFX/pk0tYZk7s8T+J7VLy0Da6J1+wCT0AtHg==}
+
+  oauth-sign@0.3.0:
+    resolution: {integrity: sha512-Tr31Sh5FnK9YKm7xTUPyDMsNOvMqkVDND0zvK/Wgj7/H9q8mpye0qG2nVzrnsvLhcsX5DtqXD0la0ks6rkPCGQ==}
 
   oauth-sign@0.9.0:
     resolution: {integrity: sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==}
@@ -3594,8 +3244,8 @@ packages:
     resolution: {integrity: sha512-C3/Ao9Hkx5uBPv9YFBpX/x59XMPgPUU4dyGg/0J2sOJ7O9D98kD+lfdOc7v/60oYo5xzMGct80uFkYLH+X2qgw==}
     engines: {node: '>=18'}
 
-  openid-client@5.6.5:
-    resolution: {integrity: sha512-5P4qO9nGJzB5PI0LFlhj4Dzg3m4odt0qsJTfyEtZyOlkgpILwEioOhVVJOrS1iVH494S4Ee5OCjjg6Bf5WOj3w==}
+  openid-client@5.7.0:
+    resolution: {integrity: sha512-4GCCGZt1i2kTHpwvaC/sCpTpQqDnBzDzuJcJMbH+y1Q5qI8U8RBvoSh28svarXszZHR5BAMXbJPX1PGPRE3VOA==}
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -3846,9 +3496,6 @@ packages:
     engines: {node: '>=16.13'}
     hasBin: true
 
-  process-nextick-args@2.0.1:
-    resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
-
   prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
 
@@ -3931,6 +3578,9 @@ packages:
   pw@0.0.4:
     resolution: {integrity: sha512-CpTTpUBtvejnm/rXjY/tPAuYwI88lOuRKzeTzzMLa9G3KywfERScUcQrZUHkIHX47UPtQM+4JBXO4bGwfm/0pw==}
     engines: {node: '>=0.4.0'}
+
+  qs@0.6.6:
+    resolution: {integrity: sha512-kN+yNdAf29Jgp+AYHUmC7X4QdJPR8czuMWLNLc0aRxkQ7tB3vJQEONKKT9ou/rW7EbqVec11srC9q9BiVbcnHA==}
 
   qs@6.11.0:
     resolution: {integrity: sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==}
@@ -4053,13 +3703,6 @@ packages:
   readable-stream@1.1.14:
     resolution: {integrity: sha512-+MeVjFf4L44XUkhM1eYbD8fyEsxcV81pqMSR5gblfcLCHfZvbrqy4/qYHE+/R5HoBUT11WV5O08Cr1n3YXkWVQ==}
 
-  readable-stream@2.3.8:
-    resolution: {integrity: sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==}
-
-  readable-stream@3.6.2:
-    resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==}
-    engines: {node: '>= 6'}
-
   readdirp@3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
@@ -4105,6 +3748,11 @@ packages:
 
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
+
+  request@2.27.0:
+    resolution: {integrity: sha512-V4AYOEmdUrf0X+CVF2hndyMzIeQ8G7LB45HER/rXZYEwNVI3QFGgLPLafQLHjqtG/ggzHEMb66Ng5IemksixsQ==}
+    engines: {'0': node >= 0.8.0}
+    deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
 
   request@2.88.2:
     resolution: {integrity: sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==}
@@ -4153,9 +3801,6 @@ packages:
     resolution: {integrity: sha512-vj6RsCsWBCf19jIeHEfkRMw8DPiBb+DMXklQ/1SGDHOMlHdPUkZXFQ2YdplS23zESTijAcurb1aSgJA3AgMu1Q==}
     engines: {node: '>=0.4'}
 
-  safe-buffer@5.1.2:
-    resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
-
   safe-buffer@5.2.1:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
 
@@ -4166,11 +3811,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sax@0.5.8:
-    resolution: {integrity: sha512-c0YL9VcSfcdH3F1Qij9qpYJFpKFKMXNOkLWFssBL3RuF7ZS8oZhllR2rWlCRjDTJsfq3R6wbSsaRU6o0rkEdNw==}
-
-  sax@1.4.1:
-    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
+  sax@0.5.2:
+    resolution: {integrity: sha512-C1SZ6m6CbGBMGPPDfmx/lsgvtQqfLwPq4aRJmrlusZ27CYPaza0IK0/c+uCdvYvyKAsAg0eJFoQwSES7xj4XqA==}
 
   scheduler@0.23.2:
     resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
@@ -4248,6 +3890,11 @@ packages:
 
   simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
+
+  sntp@0.2.4:
+    resolution: {integrity: sha512-bDLrKa/ywz65gCl+LmOiIhteP1bhEsAAzhfMedPoiHP3dyYnAevlaJshdqb9Yu0sRifyP/fRqSt8t+5qGIWlGQ==}
+    engines: {node: '>=0.8.0'}
+    deprecated: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
 
   solid-js@1.8.18:
     resolution: {integrity: sha512-cpkxDPvO/AuKBugVv6xKFd1C9VC0XZMu4VtF56IlHoux8HgyW44uqNSWbozMnVcpIzHIhS3vVXPAVZYM26jpWw==}
@@ -4332,12 +3979,6 @@ packages:
 
   string_decoder@0.10.31:
     resolution: {integrity: sha512-ev2QzSzWPYmy9GuqfIVildA4OdcGLeFZQrq5ys6RtiuF+RQQiZWr8TZNyAcuVXyQRYfEO+MsoB/1BuQVhOJuoQ==}
-
-  string_decoder@1.1.1:
-    resolution: {integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==}
-
-  string_decoder@1.3.0:
-    resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==}
 
   stringify-entities@4.0.4:
     resolution: {integrity: sha512-IwfBptatlO+QCJUo19AqvrPNqlVMpW9YEL2LIVY+Rpv2qsjCGxaDLNRgeGsQWJhfItebuJhsGSLjaBbNSQ+ieg==}
@@ -4514,15 +4155,14 @@ packages:
   tslib@2.7.0:
     resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
+  tunnel-agent@0.3.0:
+    resolution: {integrity: sha512-jlGqHGoKzyyjhwv/c9omAgohntThMcGtw8RV/RDLlkbbc08kni/akVxO62N8HaXMVbVsK1NCnpSK3N2xCt22ww==}
+
   tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
 
   tunnel-rat@0.1.2:
     resolution: {integrity: sha512-lR5VHmkPhzdhrM092lI2nACsLO4QubF0/yoOhzX7c+wIpbN1GjHNzCc91QlpxBi+cnx8vVJ+Ur6vL5cEoQPFpQ==}
-
-  tunnel@0.0.5:
-    resolution: {integrity: sha512-gj5sdqherx4VZKMcBA4vewER7zdK25Td+z1npBqpbDys4eJrLx+SlYjJvq1bDXs2irkuJM5pf8ktaEQVipkrbA==}
-    engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
 
   tunnel@0.0.6:
     resolution: {integrity: sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==}
@@ -4570,14 +4210,8 @@ packages:
   unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
 
-  underscore@1.13.7:
-    resolution: {integrity: sha512-GMXzWtsc57XAtguZgaQViUOzs0KTkk8ojr3/xAxXLITqf/3EMwxC0inyETfDFjH/Krbhuep0HNbbjI9i/q3F3g==}
-
   underscore@1.4.4:
     resolution: {integrity: sha512-ZqGrAgaqqZM7LGRzNjLnw5elevWb5M8LEoDMadxIW3OWbcv72wMMgKdwOKpd5Fqxe8choLD8HN3iSj3TUh/giQ==}
-
-  underscore@1.8.3:
-    resolution: {integrity: sha512-5WsVTFcH1ut/kkhAaHf4PVgI8c7++GiVcpCGxPouI6ZVjsqPnSDf8h/8HtVqc0t4fzRXwnMK70EcZeAs3PIddg==}
 
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
@@ -4731,13 +4365,9 @@ packages:
     engines: {node: '>=8'}
     hasBin: true
 
-  validator@13.12.0:
-    resolution: {integrity: sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==}
-    engines: {node: '>= 0.10'}
-
-  validator@13.7.0:
-    resolution: {integrity: sha512-nYXQLCBkpJ8X6ltALua9dRrZDHVYxjJ1wgskNt1lH9fzGjs3tgojGSCBjmEPwkWS1y29+DrizMTW19Pr9uB2nw==}
-    engines: {node: '>= 0.10'}
+  validator@2.1.0:
+    resolution: {integrity: sha512-Cf8C+OAo7ymX4rdcvues4wcK725zdz7TcipaQgVGJryuWA36wKjGMxlf+6mmHWWlwMhOOtdEtlJCvn8HsA7AMw==}
+    engines: {node: '>= 0.8'}
 
   vary@1.1.2:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
@@ -4835,28 +4465,12 @@ packages:
       utf-8-validate:
         optional: true
 
-  xml2js@0.2.8:
-    resolution: {integrity: sha512-ZHZBIAO55GHCn2jBYByVPHvHS+o3j8/a/qmpEe6kxO3cTnTCWC3Htq9RYJ5G4XMwMMClD2QkXA9SNdPadLyn3Q==}
+  xml2js@0.2.7:
+    resolution: {integrity: sha512-/MpJJ5ZM6U6SLqYgcVOawrYOh9JUPkgFQal7a3oBq2KJdjss+7XW7Fj0grWCGAsVxtQv7IGGK3BnpN8uvXPLgw==}
 
-  xml2js@0.4.23:
-    resolution: {integrity: sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==}
-    engines: {node: '>=4.0.0'}
-
-  xmlbuilder@11.0.1:
-    resolution: {integrity: sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==}
-    engines: {node: '>=4.0'}
-
-  xmlbuilder@15.1.1:
-    resolution: {integrity: sha512-yMqGBqtXyeN1e3TGYvgNgDVZ3j84W4cwkOXQswghol6APgZWaff9lnbvN7MHYJOiXsvGPXtjTYJEiC9J2wv9Eg==}
-    engines: {node: '>=8.0'}
-
-  xmlbuilder@9.0.7:
-    resolution: {integrity: sha512-7YXTQc3P2l9+0rjaUbLwMKRhtmwg1M1eDf6nag7urC7pIPYLD9W/jmzQ4ptRSUbodw5S0jfoGTflLemQibSpeQ==}
-    engines: {node: '>=4.0'}
-
-  xpath.js@1.1.0:
-    resolution: {integrity: sha512-jg+qkfS4K8E7965sqaUl8mRngXiKb3WZGfONgE18pr03FUQiuSV6G+Ej4tS55B+rIQSFEIw3phdVAQ4pPqNWfQ==}
-    engines: {node: '>=0.4.0'}
+  xmlbuilder@0.4.3:
+    resolution: {integrity: sha512-t3QW+VdXvxcy214Wf5Mvb+38RPW6EUG1RpMjjtG+esbAFh+/50PdXz1iGywefNl70DW2ucNWTXBw5buTgzDWyw==}
+    engines: {node: '>=0.2.0'}
 
   yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
@@ -4978,7 +4592,7 @@ snapshots:
   '@babel/code-frame@7.24.7':
     dependencies:
       '@babel/highlight': 7.24.7
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   '@babel/helper-string-parser@7.25.7': {}
 
@@ -4991,7 +4605,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       chalk: 2.4.2
       js-tokens: 4.0.0
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   '@babel/parser@7.25.7':
     dependencies:
@@ -5040,10 +4654,10 @@ snapshots:
   '@eslint/eslintrc@2.1.4':
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.5
+      debug: 4.3.7
       espree: 9.6.1
       globals: 13.24.0
-      ignore: 5.3.1
+      ignore: 5.3.2
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -5094,7 +4708,7 @@ snapshots:
   '@humanwhocodes/config-array@0.13.0':
     dependencies:
       '@humanwhocodes/object-schema': 2.0.3
-      debug: 4.3.5
+      debug: 4.3.7
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -5246,42 +4860,42 @@ snapshots:
     dependencies:
       '@types/pg': 8.11.6
 
-  '@next-auth/prisma-adapter@1.0.7(@prisma/client@5.17.0(prisma@5.17.0))(next-auth@4.24.8(next@14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+  '@next-auth/prisma-adapter@1.0.7(@prisma/client@5.17.0(prisma@5.17.0))(next-auth@4.24.8(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nodemailer@6.9.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@prisma/client': 5.17.0(prisma@5.17.0)
-      next-auth: 4.24.8(next@14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next-auth: 4.24.8(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nodemailer@6.9.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  '@next/env@14.2.4': {}
+  '@next/env@14.2.15': {}
 
   '@next/eslint-plugin-next@14.2.14':
     dependencies:
       glob: 10.3.10
 
-  '@next/swc-darwin-arm64@14.2.4':
+  '@next/swc-darwin-arm64@14.2.15':
     optional: true
 
-  '@next/swc-darwin-x64@14.2.4':
+  '@next/swc-darwin-x64@14.2.15':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@14.2.4':
+  '@next/swc-linux-arm64-gnu@14.2.15':
     optional: true
 
-  '@next/swc-linux-arm64-musl@14.2.4':
+  '@next/swc-linux-arm64-musl@14.2.15':
     optional: true
 
-  '@next/swc-linux-x64-gnu@14.2.4':
+  '@next/swc-linux-x64-gnu@14.2.15':
     optional: true
 
-  '@next/swc-linux-x64-musl@14.2.4':
+  '@next/swc-linux-x64-musl@14.2.15':
     optional: true
 
-  '@next/swc-win32-arm64-msvc@14.2.4':
+  '@next/swc-win32-arm64-msvc@14.2.15':
     optional: true
 
-  '@next/swc-win32-ia32-msvc@14.2.4':
+  '@next/swc-win32-ia32-msvc@14.2.15':
     optional: true
 
-  '@next/swc-win32-x64-msvc@14.2.4':
+  '@next/swc-win32-x64-msvc@14.2.15':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -5485,12 +5099,12 @@ snapshots:
 
   '@swc/helpers@0.5.12':
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@swc/helpers@0.5.5':
     dependencies:
       '@swc/counter': 0.1.3
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@tailwindcss/forms@0.5.9(tailwindcss@3.4.6)':
     dependencies:
@@ -5943,11 +5557,11 @@ snapshots:
     dependencies:
       crypto-js: 4.2.0
 
-  '@vercel/analytics@1.3.1(next@14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
+  '@vercel/analytics@1.3.1(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
     dependencies:
       server-only: 0.0.1
     optionalDependencies:
-      next: 14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
 
   '@vercel/blob@0.23.4':
@@ -6031,8 +5645,6 @@ snapshots:
 
   '@vue/shared@3.4.31': {}
 
-  '@xmldom/xmldom@0.8.10': {}
-
   accepts@1.3.8:
     dependencies:
       mime-types: 2.1.35
@@ -6043,19 +5655,6 @@ snapshots:
       acorn: 8.12.1
 
   acorn@8.12.1: {}
-
-  adal-node@0.2.4:
-    dependencies:
-      '@xmldom/xmldom': 0.8.10
-      async: 2.6.4
-      axios: 0.21.4
-      date-utils: 1.2.21
-      jws: 3.2.2
-      underscore: 1.8.3
-      uuid: 3.4.0
-      xpath.js: 1.1.0
-    transitivePeerDependencies:
-      - debug
 
   ai@3.2.27(react@18.3.1)(solid-js@1.8.18)(svelte@4.2.18)(vue@3.4.31(typescript@5.5.3))(zod@3.21.4):
     dependencies:
@@ -6081,13 +5680,6 @@ snapshots:
     transitivePeerDependencies:
       - solid-js
       - vue
-
-  ajv@6.12.3:
-    dependencies:
-      fast-deep-equal: 3.1.3
-      fast-json-stable-stringify: 2.1.0
-      json-schema-traverse: 0.4.1
-      uri-js: 4.4.1
 
   ajv@6.12.6:
     dependencies:
@@ -6127,7 +5719,7 @@ snapshots:
 
   aria-hidden@1.2.4:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   aria-query@5.1.3:
     dependencies:
@@ -6202,9 +5794,13 @@ snapshots:
       is-array-buffer: 3.0.4
       is-shared-array-buffer: 1.0.3
 
+  asn1@0.1.11: {}
+
   asn1@0.2.6:
     dependencies:
       safer-buffer: 2.1.2
+
+  assert-plus@0.1.5: {}
 
   assert-plus@1.0.0: {}
 
@@ -6216,9 +5812,7 @@ snapshots:
     dependencies:
       retry: 0.13.1
 
-  async@2.6.4:
-    dependencies:
-      lodash: 4.17.21
+  async@0.9.2: {}
 
   asynckit@0.4.0: {}
 
@@ -6238,723 +5832,30 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
+  aws-sign@0.3.0: {}
+
   aws4@1.13.0: {}
 
   axe-core@4.10.0: {}
 
-  axios@0.21.4:
-    dependencies:
-      follow-redirects: 1.15.6
-    transitivePeerDependencies:
-      - debug
-
   axobject-query@4.1.0: {}
 
-  azure-arm-advisor@1.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-analysisservices@2.3.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-apimanagement@2.1.1-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-appinsights@1.2.1-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-authorization@5.0.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-automation@4.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-batch@3.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-billing@2.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-cdn@4.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-cognitiveservices@2.4.1:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-commerce@2.1.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-compute@5.1.1:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-consumption@4.0.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-containerinstance@2.0.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-containerregistry@2.4.1:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-containerservice@2.0.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-cosmosdb@1.1.2:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-customerinsights@3.1.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-datafactory@2.1.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-datalake-analytics@3.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-datalake-store@3.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-devtestlabs@2.1.1:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-dns@2.1.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-domainservices@1.1.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-eventgrid@1.5.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-eventhub@1.3.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-hdinsight-jobs@0.1.1:
-    dependencies:
-      azure-common: 0.9.27
-      underscore: 1.4.4
-
-  azure-arm-hdinsight@0.3.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-iothub@1.1.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-keyvault@1.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-logic@1.1.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-machinelearning@1.1.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-machinelearningcompute@1.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-marketplaceordering@1.3.1:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-mediaservices@2.0.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-mobileengagement@1.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-monitor@2.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-mysql@3.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-network@5.3.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-notificationhubs@1.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-operationalinsights@1.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-operations@1.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-postgresql@4.3.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-powerbiembedded@1.1.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-recoveryservices-siterecovery@2.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-recoveryservices@2.0.1-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-recoveryservicesbackup@2.0.1-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-rediscache@2.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-relay@2.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-resource@3.1.1-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-resourcehealth@1.1.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-sb@2.2.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-scheduler@1.2.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-search@1.1.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-servermanagement@1.1.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-servicefabric@2.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-servicemap@2.1.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-sql@3.0.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-storage@5.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-storageimportexport@1.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-storsimple8000series@1.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-streamanalytics@1.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-trafficmanager@3.0.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-visualstudio@1.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-arm-website@3.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-asm-compute@0.18.0:
-    dependencies:
-      azure-common: 0.9.27
-      underscore: 1.4.4
-
-  azure-asm-hdinsight@0.10.3:
-    dependencies:
-      azure-common: 0.9.27
-      underscore: 1.4.4
-
-  azure-asm-mgmt@0.10.2:
-    dependencies:
-      azure-common: 0.9.27
-      underscore: 1.4.4
-
-  azure-asm-network@0.13.1:
-    dependencies:
-      azure-common: 0.9.27
-
-  azure-asm-sb@0.10.2:
-    dependencies:
-      azure-common: 0.9.27
-      underscore: 1.4.4
-
-  azure-asm-scheduler@0.10.2:
-    dependencies:
-      azure-common: 0.9.27
-
-  azure-asm-sql@0.10.3:
-    dependencies:
-      azure-common: 0.9.27
-      underscore: 1.4.4
-
-  azure-asm-storage@0.12.1:
-    dependencies:
-      azure-common: 0.9.27
-
-  azure-asm-store@0.10.2:
-    dependencies:
-      azure-common: 0.9.27
-
-  azure-asm-subscription@0.10.2:
-    dependencies:
-      azure-common: 0.9.27
-
-  azure-asm-trafficmanager@0.10.4:
-    dependencies:
-      azure-common: 0.9.27
-
-  azure-asm-website@0.10.7:
-    dependencies:
-      azure-common: 0.9.27
-      moment: 2.30.1
-      underscore: 1.8.3
-
-  azure-batch@3.2.2:
-    dependencies:
-      moment: 2.30.1
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-      underscore: 1.8.3
-    transitivePeerDependencies:
-      - debug
-
-  azure-common@0.9.27:
+  azure@0.7.19:
     dependencies:
       dateformat: 1.0.2-1.2.3
       duplexer: 0.1.2
       envconf: 0.0.4
-      request: 2.88.2
+      mime: 1.6.0
+      mpns: 2.0.1
+      node-uuid: 1.2.0
+      request: 2.27.0
       through: 2.3.8
       tunnel: 0.0.6
-      underscore: 1.13.7
-      validator: 13.7.0
-      xml2js: 0.4.23
-      xmlbuilder: 15.1.1
-
-  azure-extra@0.2.14:
-    dependencies:
-      azure-common: 0.9.27
-      underscore: 1.8.3
-
-  azure-gallery@2.0.0-pre.20:
-    dependencies:
-      azure-common: 0.9.27
       underscore: 1.4.4
-
-  azure-graph@2.2.0:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-keyvault@3.0.5:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-loganalytics@0.1.1:
-    dependencies:
-      ms-rest: 2.5.6
-
-  azure-monitoring@0.10.6:
-    dependencies:
-      azure-common: 0.9.27
-      moment: 2.30.1
-      underscore: 1.8.3
-
-  azure-sb@0.10.6:
-    dependencies:
-      azure-common: 0.9.27
-      mpns: 2.1.3
-      underscore: 1.8.3
+      validator: 2.1.0
       wns: 0.5.4
-
-  azure-scheduler@0.10.4:
-    dependencies:
-      azure-common: 0.9.27
-      moment: 2.30.1
-
-  azure-servicefabric@2.0.0-preview:
-    dependencies:
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-    transitivePeerDependencies:
-      - debug
-
-  azure-storage-legacy@0.10.3:
-    dependencies:
-      azure-common: 0.9.27
-      mime: 1.6.0
-      underscore: 1.8.3
-
-  azure-storage@2.10.7:
-    dependencies:
-      browserify-mime: 1.2.9
-      extend: 3.0.2
-      json-edm-parser: 0.1.2
-      json-schema: 0.4.0
-      md5.js: 1.3.5
-      readable-stream: 2.3.8
-      request: 2.88.2
-      underscore: 1.13.7
-      uuid: 3.4.0
-      validator: 13.12.0
-      xml2js: 0.2.8
-      xmlbuilder: 9.0.7
-
-  azure@2.3.1-preview:
-    dependencies:
-      azure-arm-advisor: 1.2.0
-      azure-arm-analysisservices: 2.3.0
-      azure-arm-apimanagement: 2.1.1-preview
-      azure-arm-appinsights: 1.2.1-preview
-      azure-arm-authorization: 5.0.0
-      azure-arm-automation: 4.0.0-preview
-      azure-arm-batch: 3.2.0
-      azure-arm-billing: 2.2.0
-      azure-arm-cdn: 4.2.0
-      azure-arm-cognitiveservices: 2.4.1
-      azure-arm-commerce: 2.1.0
-      azure-arm-compute: 5.1.1
-      azure-arm-consumption: 4.0.0
-      azure-arm-containerinstance: 2.0.0
-      azure-arm-containerregistry: 2.4.1
-      azure-arm-containerservice: 2.0.0
-      azure-arm-cosmosdb: 1.1.2
-      azure-arm-customerinsights: 3.1.0
-      azure-arm-datafactory: 2.1.0
-      azure-arm-datalake-analytics: 3.0.0-preview
-      azure-arm-datalake-store: 3.0.0-preview
-      azure-arm-devtestlabs: 2.1.1
-      azure-arm-dns: 2.1.0
-      azure-arm-domainservices: 1.1.0
-      azure-arm-eventgrid: 1.5.0
-      azure-arm-eventhub: 1.3.0
-      azure-arm-hdinsight: 0.3.0
-      azure-arm-hdinsight-jobs: 0.1.1
-      azure-arm-iothub: 1.1.0-preview
-      azure-arm-keyvault: 1.2.0
-      azure-arm-logic: 1.1.0-preview
-      azure-arm-machinelearning: 1.1.0-preview
-      azure-arm-machinelearningcompute: 1.0.0-preview
-      azure-arm-marketplaceordering: 1.3.1
-      azure-arm-mediaservices: 2.0.0
-      azure-arm-mobileengagement: 1.0.0-preview
-      azure-arm-monitor: 2.0.0-preview
-      azure-arm-mysql: 3.2.0
-      azure-arm-network: 5.3.0
-      azure-arm-notificationhubs: 1.2.0
-      azure-arm-operationalinsights: 1.2.0
-      azure-arm-operations: 1.0.0-preview
-      azure-arm-postgresql: 4.3.0
-      azure-arm-powerbiembedded: 1.1.0-preview
-      azure-arm-recoveryservices: 2.0.1-preview
-      azure-arm-recoveryservices-siterecovery: 2.0.0-preview
-      azure-arm-recoveryservicesbackup: 2.0.1-preview
-      azure-arm-rediscache: 2.0.0-preview
-      azure-arm-relay: 2.0.0-preview
-      azure-arm-resource: 3.1.1-preview
-      azure-arm-resourcehealth: 1.1.0
-      azure-arm-sb: 2.2.0-preview
-      azure-arm-scheduler: 1.2.0-preview
-      azure-arm-search: 1.1.0-preview
-      azure-arm-servermanagement: 1.1.0
-      azure-arm-servicefabric: 2.0.0-preview
-      azure-arm-servicemap: 2.1.0
-      azure-arm-sql: 3.0.0
-      azure-arm-storage: 5.2.0
-      azure-arm-storageimportexport: 1.2.0
-      azure-arm-storsimple8000series: 1.0.0-preview
-      azure-arm-streamanalytics: 1.0.0-preview
-      azure-arm-trafficmanager: 3.0.0
-      azure-arm-visualstudio: 1.0.0-preview
-      azure-arm-website: 3.0.0-preview
-      azure-asm-compute: 0.18.0
-      azure-asm-hdinsight: 0.10.3
-      azure-asm-mgmt: 0.10.2
-      azure-asm-network: 0.13.1
-      azure-asm-sb: 0.10.2
-      azure-asm-scheduler: 0.10.2
-      azure-asm-sql: 0.10.3
-      azure-asm-storage: 0.12.1
-      azure-asm-store: 0.10.2
-      azure-asm-subscription: 0.10.2
-      azure-asm-trafficmanager: 0.10.4
-      azure-asm-website: 0.10.7
-      azure-batch: 3.2.2
-      azure-common: 0.9.27
-      azure-extra: 0.2.14
-      azure-gallery: 2.0.0-pre.20
-      azure-graph: 2.2.0
-      azure-keyvault: 3.0.5
-      azure-loganalytics: 0.1.1
-      azure-monitoring: 0.10.6
-      azure-sb: 0.10.6
-      azure-scheduler: 0.10.4
-      azure-servicefabric: 2.0.0-preview
-      azure-storage: 2.10.7
-      azure-storage-legacy: 0.10.3
-      mime: 1.6.0
-      moment: 2.30.1
-      ms-rest: 2.5.6
-      ms-rest-azure: 2.6.2
-      request: 2.88.2
-      underscore: 1.8.3
-      uuid: 3.4.0
-    transitivePeerDependencies:
-      - debug
+      xml2js: 0.2.7
+      xmlbuilder: 0.4.3
 
   bail@2.0.2: {}
 
@@ -6985,6 +5886,10 @@ snapshots:
 
   boolbase@1.0.0: {}
 
+  boom@0.4.2:
+    dependencies:
+      hoek: 0.9.1
+
   brace-expansion@1.1.11:
     dependencies:
       balanced-match: 1.0.2
@@ -6998,8 +5903,6 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  browserify-mime@1.2.9: {}
-
   browserslist@4.23.2:
     dependencies:
       caniuse-lite: 1.0.30001642
@@ -7008,8 +5911,6 @@ snapshots:
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
 
   bson@6.8.0: {}
-
-  buffer-equal-constant-time@1.0.1: {}
 
   bufferutil@4.0.8:
     dependencies:
@@ -7124,6 +6025,10 @@ snapshots:
       color-convert: 2.0.1
       color-string: 1.9.1
 
+  combined-stream@0.0.7:
+    dependencies:
+      delayed-stream: 0.0.5
+
   combined-stream@1.0.8:
     dependencies:
       delayed-stream: 1.0.0
@@ -7141,6 +6046,8 @@ snapshots:
       safe-buffer: 5.2.1
 
   content-type@1.0.5: {}
+
+  cookie-jar@0.3.0: {}
 
   cookie-signature@1.0.6: {}
 
@@ -7161,6 +6068,10 @@ snapshots:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+
+  cryptiles@0.2.2:
+    dependencies:
+      boom: 0.4.2
 
   crypto-js@4.2.0: {}
 
@@ -7190,6 +6101,8 @@ snapshots:
   cssesc@3.0.0: {}
 
   csstype@3.1.3: {}
+
+  ctype@0.5.3: {}
 
   d3-array@3.2.4:
     dependencies:
@@ -7255,8 +6168,6 @@ snapshots:
 
   date-fns@3.6.0: {}
 
-  date-utils@1.2.21: {}
-
   dateformat@1.0.2-1.2.3: {}
 
   debug@2.6.9:
@@ -7315,6 +6226,8 @@ snapshots:
       define-data-property: 1.1.4
       has-property-descriptors: 1.0.2
       object-keys: 1.1.1
+
+  delayed-stream@0.0.5: {}
 
   delayed-stream@1.0.0: {}
 
@@ -7381,10 +6294,6 @@ snapshots:
     dependencies:
       jsbn: 0.1.1
       safer-buffer: 2.1.2
-
-  ecdsa-sig-formatter@1.0.11:
-    dependencies:
-      safe-buffer: 5.2.1
 
   ee-first@1.1.1: {}
 
@@ -7869,23 +6778,24 @@ snapshots:
     dependencies:
       tabbable: 6.2.0
 
-  follow-redirects@1.15.6: {}
-
   for-each@0.3.3:
     dependencies:
       is-callable: 1.2.7
-
-  foreground-child@3.2.1:
-    dependencies:
-      cross-spawn: 7.0.3
-      signal-exit: 4.1.0
 
   foreground-child@3.3.0:
     dependencies:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
 
+  forever-agent@0.5.2: {}
+
   forever-agent@0.6.1: {}
+
+  form-data@0.1.4:
+    dependencies:
+      async: 0.9.2
+      combined-stream: 0.0.7
+      mime: 1.2.11
 
   form-data@2.3.3:
     dependencies:
@@ -7971,7 +6881,7 @@ snapshots:
 
   glob@10.4.5:
     dependencies:
-      foreground-child: 3.2.1
+      foreground-child: 3.3.0
       jackspeak: 3.4.3
       minimatch: 9.0.5
       minipass: 7.1.2
@@ -8041,12 +6951,6 @@ snapshots:
     dependencies:
       has-symbols: 1.0.3
 
-  hash-base@3.1.0:
-    dependencies:
-      inherits: 2.0.4
-      readable-stream: 3.6.2
-      safe-buffer: 5.2.1
-
   hasown@2.0.2:
     dependencies:
       function-bind: 1.1.2
@@ -8098,6 +7002,15 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.4
 
+  hawk@1.0.0:
+    dependencies:
+      boom: 0.4.2
+      cryptiles: 0.2.2
+      hoek: 0.9.1
+      sntp: 0.2.4
+
+  hoek@0.9.1: {}
+
   htmlparser2@3.8.3:
     dependencies:
       domelementtype: 1.3.1
@@ -8114,16 +7027,16 @@ snapshots:
       statuses: 2.0.1
       toidentifier: 1.0.1
 
+  http-signature@0.10.1:
+    dependencies:
+      asn1: 0.1.11
+      assert-plus: 0.1.5
+      ctype: 0.5.3
+
   http-signature@1.2.0:
     dependencies:
       assert-plus: 1.0.0
       jsprim: 1.4.2
-      sshpk: 1.18.0
-
-  http-signature@1.3.6:
-    dependencies:
-      assert-plus: 1.0.0
-      jsprim: 2.0.2
       sshpk: 1.18.0
 
   iconv-lite@0.4.24:
@@ -8202,8 +7115,6 @@ snapshots:
       call-bind: 1.0.7
       has-tostringtag: 1.0.2
 
-  is-buffer@1.1.6: {}
-
   is-buffer@2.0.5: {}
 
   is-bun-module@1.2.1:
@@ -8211,10 +7122,6 @@ snapshots:
       semver: 7.6.3
 
   is-callable@1.2.7: {}
-
-  is-core-module@2.14.0:
-    dependencies:
-      hasown: 2.0.2
 
   is-core-module@2.15.1:
     dependencies:
@@ -8281,8 +7188,6 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
 
-  is-stream@1.1.0: {}
-
   is-string@1.0.7:
     dependencies:
       has-tostringtag: 1.0.2
@@ -8309,8 +7214,6 @@ snapshots:
       get-intrinsic: 1.2.4
 
   isarray@0.0.1: {}
-
-  isarray@1.0.0: {}
 
   isarray@2.0.5: {}
 
@@ -8364,10 +7267,6 @@ snapshots:
 
   json-buffer@3.0.1: {}
 
-  json-edm-parser@0.1.2:
-    dependencies:
-      jsonparse: 1.2.0
-
   json-schema-traverse@0.4.1: {}
 
   json-schema@0.4.0: {}
@@ -8386,16 +7285,7 @@ snapshots:
       chalk: 5.3.0
       diff-match-patch: 1.0.5
 
-  jsonparse@1.2.0: {}
-
   jsprim@1.4.2:
-    dependencies:
-      assert-plus: 1.0.0
-      extsprintf: 1.3.0
-      json-schema: 0.4.0
-      verror: 1.10.0
-
-  jsprim@2.0.2:
     dependencies:
       assert-plus: 1.0.0
       extsprintf: 1.3.0
@@ -8408,17 +7298,6 @@ snapshots:
       array.prototype.flat: 1.3.2
       object.assign: 4.1.5
       object.values: 1.2.0
-
-  jwa@1.4.1:
-    dependencies:
-      buffer-equal-constant-time: 1.0.1
-      ecdsa-sig-formatter: 1.0.11
-      safe-buffer: 5.2.1
-
-  jws@3.2.2:
-    dependencies:
-      jwa: 1.4.1
-      safe-buffer: 5.2.1
 
   katex@0.16.11:
     dependencies:
@@ -8512,12 +7391,6 @@ snapshots:
       mdurl: 2.0.0
       punycode.js: 2.3.1
       uc.micro: 2.1.0
-
-  md5.js@1.3.5:
-    dependencies:
-      hash-base: 3.1.0
-      inherits: 2.0.4
-      safe-buffer: 5.2.1
 
   mdast-util-definitions@5.1.2:
     dependencies:
@@ -9020,6 +7893,8 @@ snapshots:
     dependencies:
       mime-db: 1.52.0
 
+  mime@1.2.11: {}
+
   mime@1.6.0: {}
 
   mini-svg-data-uri@1.4.4: {}
@@ -9036,8 +7911,6 @@ snapshots:
 
   minipass@7.1.2: {}
 
-  moment@2.30.1: {}
-
   mongodb-connection-string-url@3.0.1:
     dependencies:
       '@types/whatwg-url': 11.0.5
@@ -9049,32 +7922,9 @@ snapshots:
       bson: 6.8.0
       mongodb-connection-string-url: 3.0.1
 
-  mpns@2.1.3: {}
+  mpns@2.0.1: {}
 
   mri@1.2.0: {}
-
-  ms-rest-azure@2.6.2:
-    dependencies:
-      adal-node: 0.2.4
-      async: 2.6.4
-      ms-rest: 2.5.6
-      request: 2.88.2
-      uuid: 3.4.0
-    transitivePeerDependencies:
-      - debug
-
-  ms-rest@2.5.6:
-    dependencies:
-      ajv: 6.12.3
-      duplexer: 0.1.2
-      http-signature: 1.3.6
-      is-buffer: 1.1.6
-      is-stream: 1.1.0
-      moment: 2.30.1
-      request: 2.88.2
-      through: 2.3.8
-      tunnel: 0.0.5
-      uuid: 3.4.0
 
   ms@2.0.0: {}
 
@@ -9098,20 +7948,22 @@ snapshots:
 
   negotiator@0.6.3: {}
 
-  next-auth@4.24.8(next@14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next-auth@4.24.8(next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(nodemailer@6.9.15)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.24.8
       '@panva/hkdf': 1.2.1
       cookie: 0.5.0
       jose: 4.15.9
-      next: 14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       oauth: 0.9.15
-      openid-client: 5.6.5
+      openid-client: 5.7.0
       preact: 10.22.1
       preact-render-to-string: 5.2.6(preact@10.22.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       uuid: 8.3.2
+    optionalDependencies:
+      nodemailer: 6.9.15
 
   next-mdx-remote@5.0.0(@types/react@18.3.11)(react@18.3.1):
     dependencies:
@@ -9126,9 +7978,9 @@ snapshots:
       - '@types/react'
       - supports-color
 
-  next@14.2.4(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next@14.2.15(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@next/env': 14.2.4
+      '@next/env': 14.2.15
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
       caniuse-lite: 1.0.30001642
@@ -9138,15 +7990,15 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       styled-jsx: 5.1.1(react@18.3.1)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 14.2.4
-      '@next/swc-darwin-x64': 14.2.4
-      '@next/swc-linux-arm64-gnu': 14.2.4
-      '@next/swc-linux-arm64-musl': 14.2.4
-      '@next/swc-linux-x64-gnu': 14.2.4
-      '@next/swc-linux-x64-musl': 14.2.4
-      '@next/swc-win32-arm64-msvc': 14.2.4
-      '@next/swc-win32-ia32-msvc': 14.2.4
-      '@next/swc-win32-x64-msvc': 14.2.4
+      '@next/swc-darwin-arm64': 14.2.15
+      '@next/swc-darwin-x64': 14.2.15
+      '@next/swc-linux-arm64-gnu': 14.2.15
+      '@next/swc-linux-arm64-musl': 14.2.15
+      '@next/swc-linux-x64-gnu': 14.2.15
+      '@next/swc-linux-x64-musl': 14.2.15
+      '@next/swc-win32-arm64-msvc': 14.2.15
+      '@next/swc-win32-ia32-msvc': 14.2.15
+      '@next/swc-win32-x64-msvc': 14.2.15
       '@opentelemetry/api': 1.9.0
     transitivePeerDependencies:
       - '@babel/core'
@@ -9155,6 +8007,13 @@ snapshots:
   node-gyp-build@4.8.1: {}
 
   node-releases@2.0.14: {}
+
+  node-uuid@1.2.0: {}
+
+  node-uuid@1.4.8: {}
+
+  nodemailer@6.9.15:
+    optional: true
 
   normalize-path@3.0.0: {}
 
@@ -9203,6 +8062,8 @@ snapshots:
   nth-check@1.0.2:
     dependencies:
       boolbase: 1.0.0
+
+  oauth-sign@0.3.0: {}
 
   oauth-sign@0.9.0: {}
 
@@ -9269,7 +8130,7 @@ snapshots:
 
   openai-edge@1.2.2: {}
 
-  openid-client@5.6.5:
+  openid-client@5.7.0:
     dependencies:
       jose: 4.15.9
       lru-cache: 6.0.0
@@ -9408,8 +8269,8 @@ snapshots:
   postcss@8.4.31:
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.1
-      source-map-js: 1.2.0
+      picocolors: 1.1.0
+      source-map-js: 1.2.1
 
   postcss@8.4.39:
     dependencies:
@@ -9455,8 +8316,6 @@ snapshots:
   prisma@5.17.0:
     dependencies:
       '@prisma/engines': 5.17.0
-
-  process-nextick-args@2.0.1: {}
 
   prop-types@15.8.1:
     dependencies:
@@ -9580,6 +8439,8 @@ snapshots:
   punycode@2.3.1: {}
 
   pw@0.0.4: {}
+
+  qs@0.6.6: {}
 
   qs@6.11.0:
     dependencies:
@@ -9742,22 +8603,6 @@ snapshots:
       isarray: 0.0.1
       string_decoder: 0.10.31
 
-  readable-stream@2.3.8:
-    dependencies:
-      core-util-is: 1.0.3
-      inherits: 2.0.4
-      isarray: 1.0.0
-      process-nextick-args: 2.0.1
-      safe-buffer: 5.1.2
-      string_decoder: 1.1.1
-      util-deprecate: 1.0.2
-
-  readable-stream@3.6.2:
-    dependencies:
-      inherits: 2.0.4
-      string_decoder: 1.3.0
-      util-deprecate: 1.0.2
-
   readdirp@3.6.0:
     dependencies:
       picomatch: 2.3.1
@@ -9852,6 +8697,21 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  request@2.27.0:
+    dependencies:
+      aws-sign: 0.3.0
+      cookie-jar: 0.3.0
+      forever-agent: 0.5.2
+      form-data: 0.1.4
+      hawk: 1.0.0
+      http-signature: 0.10.1
+      json-stringify-safe: 5.0.1
+      mime: 1.2.11
+      node-uuid: 1.4.8
+      oauth-sign: 0.3.0
+      qs: 0.6.6
+      tunnel-agent: 0.3.0
+
   request@2.88.2:
     dependencies:
       aws-sign2: 0.7.0
@@ -9881,7 +8741,7 @@ snapshots:
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.14.0
+      is-core-module: 2.15.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
@@ -9916,8 +8776,6 @@ snapshots:
       has-symbols: 1.0.3
       isarray: 2.0.5
 
-  safe-buffer@5.1.2: {}
-
   safe-buffer@5.2.1: {}
 
   safe-regex-test@1.0.3:
@@ -9928,9 +8786,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sax@0.5.8: {}
-
-  sax@1.4.1: {}
+  sax@0.5.2: {}
 
   scheduler@0.23.2:
     dependencies:
@@ -10060,6 +8916,10 @@ snapshots:
     dependencies:
       is-arrayish: 0.3.2
 
+  sntp@0.2.4:
+    dependencies:
+      hoek: 0.9.1
+
   solid-js@1.8.18:
     dependencies:
       csstype: 3.1.3
@@ -10168,14 +9028,6 @@ snapshots:
       es-object-atoms: 1.0.0
 
   string_decoder@0.10.31: {}
-
-  string_decoder@1.1.1:
-    dependencies:
-      safe-buffer: 5.1.2
-
-  string_decoder@1.3.0:
-    dependencies:
-      safe-buffer: 5.2.1
 
   stringify-entities@4.0.4:
     dependencies:
@@ -10368,6 +9220,8 @@ snapshots:
 
   tslib@2.7.0: {}
 
+  tunnel-agent@0.3.0: {}
+
   tunnel-agent@0.6.0:
     dependencies:
       safe-buffer: 5.2.1
@@ -10379,8 +9233,6 @@ snapshots:
       - '@types/react'
       - immer
       - react
-
-  tunnel@0.0.5: {}
 
   tunnel@0.0.6: {}
 
@@ -10440,11 +9292,7 @@ snapshots:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
 
-  underscore@1.13.7: {}
-
   underscore@1.4.4: {}
-
-  underscore@1.8.3: {}
 
   undici-types@5.26.5: {}
 
@@ -10541,7 +9389,7 @@ snapshots:
     dependencies:
       browserslist: 4.23.2
       escalade: 3.1.2
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   uri-js@4.4.1:
     dependencies:
@@ -10610,9 +9458,7 @@ snapshots:
       kleur: 4.1.5
       sade: 1.8.1
 
-  validator@13.12.0: {}
-
-  validator@13.7.0: {}
+  validator@2.1.0: {}
 
   vary@1.1.2: {}
 
@@ -10751,22 +9597,11 @@ snapshots:
       bufferutil: 4.0.8
       utf-8-validate: 6.0.4
 
-  xml2js@0.2.8:
+  xml2js@0.2.7:
     dependencies:
-      sax: 0.5.8
+      sax: 0.5.2
 
-  xml2js@0.4.23:
-    dependencies:
-      sax: 1.4.1
-      xmlbuilder: 11.0.1
-
-  xmlbuilder@11.0.1: {}
-
-  xmlbuilder@15.1.1: {}
-
-  xmlbuilder@9.0.7: {}
-
-  xpath.js@1.1.0: {}
+  xmlbuilder@0.4.3: {}
 
   yallist@4.0.0: {}
 
