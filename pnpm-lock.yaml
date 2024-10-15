@@ -126,8 +126,8 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
       use-debounce:
-        specifier: ^10.0.0
-        version: 10.0.1(react@18.3.1)
+        specifier: ^10.0.4
+        version: 10.0.4(react@18.3.1)
     devDependencies:
       '@tailwindcss/forms':
         specifier: ^0.5.7
@@ -282,8 +282,8 @@ packages:
     resolution: {integrity: sha512-EStJpq4OuY8xYfhGVXngigBJRWxftKX9ksiGDnmlY3o7B/V7KIAc9X4oiK87uPJSc/vs5L869bem5fhZa8caZw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.25.7':
-    resolution: {integrity: sha512-aZn7ETtQsjjGG5HruveUK06cU3Hljuhd9Iojm4M8WWv3wLE6OkE5PWbDUkItmMgegmccaITudyuW5RPYrYlgWw==}
+  '@babel/parser@7.25.8':
+    resolution: {integrity: sha512-HcttkxzdPucv3nNFmfOOMfFf64KgdJVqm1KaCm25dPGMLElo9nsLvXeJECQg8UzPuBGLyTSA0ZzqCtDSzKTEoQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -291,8 +291,8 @@ packages:
     resolution: {integrity: sha512-5F7SDGs1T72ZczbRwbGO9lQi0NLjQxzl6i4lJxLxfW9U5UluCSyEJeniWvnhl3/euNiqQVbo8zruhsDfid0esA==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.25.7':
-    resolution: {integrity: sha512-vwIVdXG+j+FOpkwqHRcBgHLYNL7XMkufrlaFvL9o6Ai9sJn9+PdyIL5qa0XzTZw084c+u9LOls53eoZWP/W5WQ==}
+  '@babel/types@7.25.8':
+    resolution: {integrity: sha512-JWtuCu8VQsMladxVz/P4HzHUGCAwpuqacmowgXFs5XjxIgKuNjnLokQzuVjlTvIzODaDmpjT3oxcC48vyk9EWg==}
     engines: {node: '>=6.9.0'}
 
   '@cfcs/core@0.0.6':
@@ -2764,8 +2764,8 @@ packages:
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
 
-  magic-string@0.30.11:
-    resolution: {integrity: sha512-+Wri9p0QHMy+545hKww7YAu5NyzF8iomPL/RQazugQ9+Ez4Ic3mERMd8ZTX5rfK944j+560ZJi8iAwgak1Ac7A==}
+  magic-string@0.30.12:
+    resolution: {integrity: sha512-Ea8I3sQMVXr8JhN4z+H/d8zwo+tYDgHE9+5G4Wnrwhs0gaK9fXTKx0Tw5Xwsd/bCPTTZNRAdpyzvoeORe9LYpw==}
 
   markdown-extensions@2.0.0:
     resolution: {integrity: sha512-o5vL7aDWatOTX8LzaS1WMoaoxIiLRQJuIKKe2wAw6IeULDHaqbiqiggmx+pKvZDb1Sj+pE46Sn1T7lCqfFtg1Q==}
@@ -4302,11 +4302,11 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  use-debounce@10.0.1:
-    resolution: {integrity: sha512-0uUXjOfm44e6z4LZ/woZvkM8FwV1wiuoB6xnrrOmeAEjRDDzTLQNRFtYHvqUsJdrz1X37j0rVGIVp144GLHGKg==}
+  use-debounce@10.0.4:
+    resolution: {integrity: sha512-6Cf7Yr7Wk7Kdv77nnJMf6de4HuDE4dTxKij+RqE9rufDsI6zsbjyAxcH5y2ueJCQAnfgKbzXbZHYlkFwmBlWkw==}
     engines: {node: '>= 16.0.0'}
     peerDependencies:
-      react: '>=16.8.0'
+      react: '*'
 
   use-isomorphic-layout-effect@1.1.2:
     resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
@@ -4613,15 +4613,15 @@ snapshots:
       js-tokens: 4.0.0
       picocolors: 1.1.0
 
-  '@babel/parser@7.25.7':
+  '@babel/parser@7.25.8':
     dependencies:
-      '@babel/types': 7.25.7
+      '@babel/types': 7.25.8
 
   '@babel/runtime@7.24.8':
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@babel/types@7.25.7':
+  '@babel/types@7.25.8':
     dependencies:
       '@babel/helper-string-parser': 7.25.7
       '@babel/helper-validator-identifier': 7.25.7
@@ -5599,7 +5599,7 @@ snapshots:
 
   '@vue/compiler-core@3.4.31':
     dependencies:
-      '@babel/parser': 7.25.7
+      '@babel/parser': 7.25.8
       '@vue/shared': 3.4.31
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -5612,13 +5612,13 @@ snapshots:
 
   '@vue/compiler-sfc@3.4.31':
     dependencies:
-      '@babel/parser': 7.25.7
+      '@babel/parser': 7.25.8
       '@vue/compiler-core': 3.4.31
       '@vue/compiler-dom': 3.4.31
       '@vue/compiler-ssr': 3.4.31
       '@vue/shared': 3.4.31
       estree-walker: 2.0.2
-      magic-string: 0.30.11
+      magic-string: 0.30.12
       postcss: 8.4.47
       source-map-js: 1.2.1
 
@@ -7381,7 +7381,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  magic-string@0.30.11:
+  magic-string@0.30.12:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
@@ -9117,7 +9117,7 @@ snapshots:
       estree-walker: 3.0.3
       is-reference: 3.0.2
       locate-character: 3.0.0
-      magic-string: 0.30.11
+      magic-string: 0.30.12
       periscopic: 3.1.0
 
   swr@2.2.0(react@18.3.1):
@@ -9428,7 +9428,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  use-debounce@10.0.1(react@18.3.1):
+  use-debounce@10.0.4(react@18.3.1):
     dependencies:
       react: 18.3.1
 
