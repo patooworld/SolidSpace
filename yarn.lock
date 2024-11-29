@@ -1423,19 +1423,19 @@
   resolved "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.2.0.tgz"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@upstash/core-analytics@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.npmjs.org/@upstash/core-analytics/-/core-analytics-0.0.9.tgz"
-  integrity sha512-9NXXxZ5y1/A/zqKLlVT7NsAWSggJfOjB0hG6Ffx29b4jbzHOiQVWB55h5+j2clT9Ib+mNPXn0iB5zN3aWLkICw==
+"@upstash/core-analytics@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.npmjs.org/@upstash/core-analytics/-/core-analytics-0.0.10.tgz"
+  integrity sha512-7qJHGxpQgQr9/vmeS1PktEwvNAF7TI4iJDi8Pu2CFZ9YUGHZH4fOP5TfYlZ4aVxfopnELiE4BS4FBjyK7V1/xQ==
   dependencies:
     "@upstash/redis" "^1.28.3"
 
-"@upstash/ratelimit@^1.0.0":
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/@upstash/ratelimit/-/ratelimit-1.2.1.tgz"
-  integrity sha512-o01lV1yFS5Fzj5KONZmNyVch/Qrlj785B2ob+kStUmxn8F6xXk7IHTQqVcHE+Ce3CmT/qQIwvMxDZftyJ5wYpQ==
+"@upstash/ratelimit@^2.0.0":
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/@upstash/ratelimit/-/ratelimit-2.0.4.tgz"
+  integrity sha512-rKZWlZXXK93Xv1cz5/eCbGN4ZbvN3dWbjT2V6Of/3vqQGzd3TnD/xS3Okxp8EoG7L4MeLpy6UsRuMKGnuDZFAQ==
   dependencies:
-    "@upstash/core-analytics" "^0.0.9"
+    "@upstash/core-analytics" "^0.0.10"
 
 "@upstash/redis@^1.28.3", "@upstash/redis@^1.31.3":
   version "1.31.6"
